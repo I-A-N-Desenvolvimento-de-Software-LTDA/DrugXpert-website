@@ -52,11 +52,11 @@ const Navbar = () => {
               ))}
             </ul>
             <div className="flex space-x-6">
-              <a href="#" className="py-2 px-3 border rounded-md">
+              <a href="https://app.drugxpert.net/" className="py-2 px-3 border rounded-md">
                 Sign In
               </a>
               <a
-                href="#"
+                href="https://app.drugxpert.net/"
                 className="py-2 px-3 rounded-md bg-gradient-to-r from-[#5c8d2f] to-[#215153]"
               >
                 Create an account
