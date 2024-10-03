@@ -176,3 +176,11 @@ export const communityLinks = [
   { href: "#", text: "Hackathons" },
   { href: "#", text: "Jobs" },
 ];
+
+export const companyLinks = [
+  { href: "#", text: "Terms of Service" },
+  { href: "#", text: "Privacy Policy" },
+  { href: "#", text: "Cookie Policy" },
+  { href: "#", text: "Service Level Agreement" },
+  { href: "#", text: "Acceptable Use Policy" },
+];
