@@ -75,30 +75,30 @@ const Footer = () => {
       <div className="mt-6">
         <div className="flex justify-center space-x-4">
           <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
-            <img src="./src/assets/icons/discord-icon.png" alt="Discord" className="h-6 w-6" />
+            <img src="../assets/icons/discord-icon.png" alt="Discord" className="h-6 w-6" />
           </a>
           <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-            <img src="./src/assets/icons/youtube-icon.png" alt="YouTube" className="h-6 w-6" />
+            <img src="../assets/icons/youtube-icon.png" alt="YouTube" className="h-6 w-6" />
           </a>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <img src="./src/assets/icons/twitter-icon.png" alt="Twitter" className="h-6 w-6" />
+            <img src="../assets/icons/twitter-icon.png" alt="Twitter" className="h-6 w-6" />
           </a>
         </div>
 
         {/* Botões para Google Play e App Store abaixo dos ícones das redes sociais */}
         <div className="mt-4 flex justify-center space-x-4">
           <a href="https://play.google.com" target="_blank" rel="noopener noreferrer" className="flex items-center">
-            <img src="./src/assets/icons/google-play.png" alt="Get it on Google Play" className="h-12 w-auto" />
+            <img src="../assets/icons/google-play.png" alt="Get it on Google Play" className="h-12 w-auto" />
           </a>
           <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer" className="flex items-center">
-            <img src="./src/assets/icons/app-store.png" alt="Download on the App Store" className="h-8 w-auto" />
+            <img src="../assets/icons/app-store.png" alt="Download on the App Store" className="h-8 w-auto" />
           </a>
         </div>
       </div>
 
       {/* Mensagem de direitos reservados com logo ao lado */}
       <div className="mt-4 flex items-center justify-center">
-        <img src="./src/assets/logo.png" alt="Logo" className="h-8 w-8 mr-2" />
+        <img src="../assets/logo.png" alt="Logo" className="h-8 w-8 mr-2" />
         <p className="text-center text-neutral-400 text-sm">
           &copy; {new Date().getFullYear()} All rights reserved.
         </p>
