@@ -180,7 +180,7 @@ export const communityLinks = [
 
 export const companyLinks = [
   { href: "/terms", text: "Terms of Service" },  
-  { href: "#", text: "Privacy Policy" },
+  { href: "/privacy", text: "Privacy Policy" },
   { href: "#", text: "Cookie Policy" },
   { href: "#", text: "Service Level Agreement" },
   { href: "#", text: "Acceptable Use Policy" },

@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Pricing from "./components/Pricing";
 import Testimonials from "./components/Testimonials";
 import Terms from "./pages/Terms"; // Importando a nova página de Termos
+import Privacy from './pages/Privacy';
 
 const App = () => {
   return (
@@ -24,7 +25,8 @@ const App = () => {
               <Testimonials />
             </>
           } />
-          <Route path="/terms" element={<Terms />} /> {/* Rota para a página de Termos */}
+          <Route path="/terms" element={<Terms />} /> 
+          <Route path="/privacy" element={<Privacy />} /> 
         </Routes>
       </div>
       <Footer />
