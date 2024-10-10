@@ -33,7 +33,7 @@ const Navbar = () => {
             </a>
             <a
               href="https://app.drugxpert.net/auth-page/signup"
-              className="bg-gradient-to-r from-[#5c8d2f] to-[#215153] py-2 px-3 rounded-md"
+              className="text-white bg-gradient-to-r from-[#5c8d2f] to-[#215153] py-2 px-3 rounded-md"
             >
               Create an account
             </a>
@@ -45,7 +45,7 @@ const Navbar = () => {
           </div>
         </div>
         {mobileDrawerOpen && (
-          <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
+          <div className="fixed right-0 z-20 bg-white w-full p-12 flex flex-col justify-center items-center lg:hidden">
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">
@@ -59,7 +59,7 @@ const Navbar = () => {
               </a>
               <a
                 href="https://app.drugxpert.net/auth-page/signup"
-                className="py-2 px-3 rounded-md bg-gradient-to-r from-[#5c8d2f] to-[#215153]"
+                className="text-white py-2 px-3 rounded-md bg-gradient-to-r from-[#5c8d2f] to-[#215153]"
               >
                 Create an account
               </a>

@@ -33,7 +33,7 @@ const Pricing = () => {
               </ul>
               <a
                 href="#"
-                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-[#5c8d2f] border border-[#5c8d2f] rounded-lg transition duration-200"
+                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-gradient-to-r from-[#5c8d2f] to-[#215153] border border-[#5c8d2f] hover:text-white rounded-lg transition duration-50"
               >
                 Subscribe
               </a>

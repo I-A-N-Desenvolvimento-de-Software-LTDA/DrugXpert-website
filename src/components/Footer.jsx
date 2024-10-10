@@ -9,7 +9,7 @@ const Footer = () => {
           <ul className="space-y-2">
             {resourcesLinks.map((link, index) => (
               <li key={index}>
-                <a href={link.href} className="text-neutral-300 hover:text-white">
+                <a href={link.href} className="text-black-300 hover:text-[#5c8d2f]">
                   {link.text}
                 </a>
               </li>
@@ -21,7 +21,7 @@ const Footer = () => {
           <ul className="space-y-2">
             {platformLinks.map((link, index) => (
               <li key={index}>
-                <a href={link.href} className="text-neutral-300 hover:text-white">
+                <a href={link.href} className="text-black-300 hover:text-[#5c8d2f]">
                   {link.text}
                 </a>
               </li>
@@ -33,7 +33,7 @@ const Footer = () => {
           <ul className="space-y-2">
             {communityLinks.map((link, index) => (
               <li key={index}>
-                <a href={link.href} className="text-neutral-300 hover:text-white">
+                <a href={link.href} className="text-black-300 hover:text-[#5c8d2f]">
                   {link.text}
                 </a>
               </li>
@@ -45,7 +45,7 @@ const Footer = () => {
           <ul className="space-y-2">
             {companyLinks.map((link, index) => (
               <li key={index}>
-                <a href={link.href} className="text-neutral-300 hover:text-white">
+                <a href={link.href} className="text-black-300 hover:text-[#5c8d2f]">
                   {link.text}
                 </a>
               </li>
@@ -58,12 +58,12 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 mt-6">
         <h3 className="text-md font-semibold mb-4">Contact Us</h3>
         <div className="space-y-2"> {/* Adicionado o espaço vertical aqui */}
-          <p className="text-neutral-300">Support Hours: 09:30 AM - 06:00 PM</p>
-          <p className="text-neutral-300">Phone: +55-12-98297-0005</p>
-          <p className="text-neutral-300">
+          <p className="text-black-300">Support Hours: 09:30 AM - 06:00 PM</p>
+          <p className="text-black-300">Phone: +55-12-98297-0005</p>
+          <p className="text-black-300">
             Live Chat: <a href="#" className="text-blue-400 hover:underline">Get help now!</a>
           </p>
-          <p className="text-neutral-300">
+          <p className="text-black-300">
             Email: <a href="mailto:support@drugxpert.net" className="text-blue-400 hover:underline">support@drugxpert.net</a>
           </p>
         </div>
@@ -99,7 +99,7 @@ const Footer = () => {
       {/* Mensagem de direitos reservados com logo ao lado */}
       <div className="max-w-7xl mx-auto px-4 mt-4 flex items-center justify-center">
         <img src="/assets/logo.png" alt="Logo" className="h-8 w-8 mr-2" />
-        <p className="text-center text-neutral-400 text-sm">
+        <p className="text-center text-black-400 text-sm">
           &copy; {new Date().getFullYear()} All rights reserved.
         </p>
       </div>

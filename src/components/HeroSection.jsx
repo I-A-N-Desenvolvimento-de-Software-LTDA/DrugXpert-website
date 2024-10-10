@@ -17,7 +17,7 @@ const HeroSection = () => {
       <div className="flex justify-center my-10">
         <a
           href="https://app.drugxpert.net/"
-          className="bg-gradient-to-r from-[#5c8d2f] to-[#215153] py-3 px-4 mx-3 rounded-md"
+          className="text-white bg-gradient-to-r from-[#5c8d2f] to-[#215153] py-3 px-4 mx-3 rounded-md"
         >
           Start for free
         </a>
