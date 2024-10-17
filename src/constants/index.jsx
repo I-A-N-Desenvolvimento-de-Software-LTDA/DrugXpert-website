@@ -154,8 +154,8 @@ export const pricingOptions = [
 ];
 
 export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
+  { href: "https://app.drugxpert.net/auth-page/signup", text: "Getting Started" },
+  { href: "https://docs.drugxpert.net/", text: "Documentation" },
   { href: "#", text: "Tutorials" },
   { href: "#", text: "API Reference" },
   { href: "#", text: "Community Forums" },
@@ -181,7 +181,7 @@ export const communityLinks = [
 export const companyLinks = [
   { href: "/terms", text: "Terms of Service" },  
   { href: "/privacy", text: "Privacy Policy" },
+  { href: "/refund", text: "Return & Refund Policy" },
   { href: "#", text: "Cookie Policy" },
-  { href: "#", text: "Service Level Agreement" },
   { href: "#", text: "Acceptable Use Policy" },
 ];

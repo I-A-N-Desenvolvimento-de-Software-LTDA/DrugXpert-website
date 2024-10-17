@@ -7,8 +7,9 @@ import Workflow from "./components/Workflow";
 import Footer from "./components/Footer";
 import Pricing from "./components/Pricing";
 import Testimonials from "./components/Testimonials";
-import Terms from "./pages/Terms"; // Importando a nova página de Termos
+import Terms from "./pages/Terms"; 
 import Privacy from './pages/Privacy';
+import Refund from './pages/Refund';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
           } />
           <Route path="/terms" element={<Terms />} /> 
           <Route path="/privacy" element={<Privacy />} /> 
+          <Route path="/refund" element={<Refund />} /> 
         </Routes>
       </div>
       <Footer />
