@@ -10,7 +10,7 @@ const About = () => {
         Welcome to DrugXpert, a revolutionary drug research platform designed to empower researchers, scientists, and healthcare professionals in their quest to unlock the secrets of drug discovery. Our journey began with a simple vision: to democratize pharmaceutical research and provide innovative tools that can be accessed by everyone, anywhere, at any time.
       </p>
       <div className="flex justify-center mb-10">
-        <img src="./src/assets/logo.png" alt="DrugXpert Overview" className="w-3/4 h-auto rounded-lg shadow-md"/>
+        <img src="/assets/logo.png" alt="DrugXpert Overview" className="w-3/4 h-auto rounded-lg shadow-md"/>
       </div>
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">The Genesis of DrugXpert</h2>
@@ -41,7 +41,7 @@ const About = () => {
       </p>
 
       <div className="flex justify-center mb-10">
-        <img src="./src/assets/molecula1.png" alt="DrugXpert Features" className="w-3/4 h-auto rounded-lg shadow-md"/>
+        <img src="/assets/molecula1.png" alt="DrugXpert Features" className="w-3/4 h-auto rounded-lg shadow-md"/>
       </div>
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">Development Journey</h2>
@@ -72,7 +72,7 @@ const About = () => {
       </ol>
 
       <div className="flex justify-center mb-10">
-        <img src="./src/assets/molecula2.png" alt="DrugXpert Community" className="w-3/4 h-auto rounded-lg shadow-md"/>
+        <img src="assets/molecula2.png" alt="DrugXpert Community" className="w-3/4 h-auto rounded-lg shadow-md"/>
       </div>
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">A Commitment to Accessibility</h2>
