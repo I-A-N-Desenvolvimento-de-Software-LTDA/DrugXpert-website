@@ -16,7 +16,7 @@ export const navItems = [
   { label: "Features", href: "#" },
   { label: "Workflow", href: "#" },
   { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "About", href: "/about" },
 ];
 
 export const testimonials = [
@@ -156,7 +156,7 @@ export const pricingOptions = [
 export const resourcesLinks = [
   { href: "https://app.drugxpert.net/auth-page/signup", text: "Getting Started" },
   { href: "https://docs.drugxpert.net/", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
+  { href: "/about", text: "About" },
   { href: "#", text: "API Reference" },
   { href: "#", text: "Community Forums" },
 ];
