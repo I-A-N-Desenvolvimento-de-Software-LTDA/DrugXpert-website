@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Helmet } from 'react-helmet'; // Importação do react-helmet
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import FeatureSection from "./components/FeatureSection";
@@ -20,6 +21,10 @@ const App = () => {
         <Routes>
           <Route path="/" element={
             <>
+              <Helmet>
+                <title>DrugXpert | Home</title>
+                <meta name="description" content="Innovative platform for medication management." />
+              </Helmet>
               <HeroSection />
               <FeatureSection />
               <Workflow />
@@ -27,10 +32,42 @@ const App = () => {
               <Testimonials />
             </>
           } />
-          <Route path="/about" element={<About />} /> 
-          <Route path="/terms" element={<Terms />} /> 
-          <Route path="/privacy" element={<Privacy />} /> 
-          <Route path="/refund" element={<Refund />} /> 
+          <Route path="/about" element={
+            <>
+              <Helmet>
+                <title>DrugXpert | About</title>
+                <meta name="description" content="Learn more about our mission and vision." />
+              </Helmet>
+              <About />
+            </>
+          } />
+          <Route path="/terms" element={
+            <>
+              <Helmet>
+                <title>DrugXpert | Terms and Conditions</title>
+                <meta name="description" content="Please read our terms and conditions." />
+              </Helmet>
+              <Terms />
+            </>
+          } />
+          <Route path="/privacy" element={
+            <>
+              <Helmet>
+                <title>DrugXpert | Privacy Policy</title>
+                <meta name="description" content="Our privacy and data protection policy." />
+              </Helmet>
+              <Privacy />
+            </>
+          } />
+          <Route path="/refund" element={
+            <>
+              <Helmet>
+                <title>DrugXpert | Refund Policy</title>
+                <meta name="description" content="Check out our refund policy." />
+              </Helmet>
+              <Refund />
+            </>
+          } />
         </Routes>
       </div>
       <Footer />
@@ -39,7 +76,3 @@ const App = () => {
 };
 
 export default App;
-
-// src="src/assets/logo.png"
-// src="src/assets/molecula1.png"
-// src="src/assets/molecula2.png"
