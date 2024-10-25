@@ -15,7 +15,7 @@ import user6 from "../assets/profile-pictures/user6.jpg";
 export const navItems = [
   { label: "Features", href: "#" },
   { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
+  { label: "Pricing", href: "/pricing" },
   { label: "Documentation", href: "https://docs.drugxpert.net/" },
   { label: "About", href: "/about" },
 ];
@@ -149,6 +149,48 @@ export const pricingOptions = [
       "Private Research",
       "Unlimited of Research Storage",
       "High Performance Network",
+      "100 API Calls",
+    ],
+  },
+];
+
+export const subscribeOptions = [
+  {
+    title: "Free",
+    price: "$0",
+    features: [
+      "Private Research",
+      "1 Gb of Research Storage",
+      "Analytics Dashboard",
+      "10 API Calls",
+      "10 API Calls",
+      "10 API Calls",
+      "10 API Calls",
+    ],
+  },
+  {
+    title: "Pro",
+    price: "$10",
+    features: [
+      "Private Research",
+      "5 Gb of Research Storage",
+      "Analytics Dashboard (Advance)",
+      "50 API Calls",
+      "50 API Calls",
+      "50 API Calls",
+      "50 API Calls",
+    ],
+  },
+  {
+    title: "Enterprise",
+    price: "$30",
+    features: [
+      "Private Research",
+      "Unlimited of Research Storage",
+      "High Performance Network",
+      "100 API Calls",
+      "100 API Calls",
+      "100 API Calls",
       "100 API Calls",
     ],
   },

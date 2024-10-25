@@ -61,10 +61,10 @@ const Footer = () => {
           <p className="text-black-300">Support Hours: 09:30 AM - 06:00 PM</p>
           <p className="text-black-300">Phone: +55-12-98297-0005</p>
           <p className="text-black-300">
-            Live Chat: <a href="#" className="text-blue-400 hover:underline">Get help now!</a>
+            Live Chat: <a href="#" className="text-[#5c8d2f] hover:underline">Get help now!</a>
           </p>
           <p className="text-black-300">
-            Email: <a href="mailto:support@drugxpert.net" className="text-blue-400 hover:underline">support@drugxpert.net</a>
+            Email: <a href="mailto:support@drugxpert.net" className="text-[#5c8d2f] hover:underline">support@drugxpert.net</a>
           </p>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import { CheckCircle2 } from "lucide-react";
-import { pricingOptions } from "../constants";
+import { pricingOptions } from "../../constants";
 
-const Pricing = () => {
+const Subscribe = () => {
   return (
     <div className="mt-20">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wide">
@@ -32,7 +32,7 @@ const Pricing = () => {
                 ))}
               </ul>
               <a
-                href="#"
+                href="https://stripe.com/br?utm_adposition="
                 className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-gradient-to-r from-[#5c8d2f] to-[#215153] border border-[#5c8d2f] hover:text-white rounded-lg transition duration-50"
               >
                 Subscribe
@@ -41,8 +41,13 @@ const Pricing = () => {
           </div>
         ))}
       </div>
+      <div className="flex justify-center mt-8">
+        <h1>
+          <a href="/pricing" className="underline text-lg hover:text-[#5c8d2f] transition-colors">Compare plans</a>
+        </h1>
+      </div>
     </div>
   );
 };
 
-export default Pricing;
+export default Subscribe;

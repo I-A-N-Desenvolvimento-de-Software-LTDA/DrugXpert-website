@@ -6,12 +6,13 @@ import HeroSection from "./components/HeroSection";
 import FeatureSection from "./components/FeatureSection";
 import Workflow from "./components/Workflow";
 import Footer from "./components/Footer";
-import Pricing from "./components/Pricing";
+import Subscribe from "./components/Pricing/Subscribe";
 import Testimonials from "./components/Testimonials";
 import About from './pages/About';
 import Terms from "./pages/Terms"; 
 import Privacy from './pages/Privacy';
 import Refund from './pages/Refund';
+import Pricing from './pages/Pricing';
 
 const App = () => {
   return (
@@ -28,8 +29,17 @@ const App = () => {
               <HeroSection />
               <FeatureSection />
               <Workflow />
-              <Pricing />
+              <Subscribe />
               <Testimonials />
+            </>
+          } />
+          <Route path="/pricing" element={
+            <>
+              <Helmet>
+                <title>DrugXpert | Pricing </title>
+                <meta name="description" content="Learn more about our mission and vision." />
+              </Helmet>
+              <Pricing />
             </>
           } />
           <Route path="/about" element={
