@@ -16,6 +16,7 @@ export const navItems = [
   { label: "Features", href: "#" },
   { label: "Workflow", href: "#" },
   { label: "Pricing", href: "#" },
+  { label: "Documentation", href: "https://docs.drugxpert.net/" },
   { label: "About", href: "/about" },
 ];
 
