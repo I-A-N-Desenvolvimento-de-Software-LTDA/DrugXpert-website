@@ -1,4 +1,6 @@
-import { CheckCircle2 } from "lucide-react";
+import { BadgeCheck, BadgeX  } from "lucide-react";
+
+
 import { subscribeOptions } from "../../constants";
 
 const FullSubscribe = () => {
@@ -26,8 +28,14 @@ const FullSubscribe = () => {
               <ul>
                 {option.features.map((feature, index) => (
                   <li key={index} className="mt-8 flex items-center">
-                    <CheckCircle2 />
+                    <BadgeCheck color="green" />
                     <span className="ml-2">{feature}</span>
+                  </li>
+                ))}
+                {option.notOn.map((notOn, index) => (
+                  <li key={index} className="mt-8 flex items-center">
+                    <BadgeX  color="red"/>
+                    <span className="ml-2">{notOn}</span>
                   </li>
                 ))}
               </ul>

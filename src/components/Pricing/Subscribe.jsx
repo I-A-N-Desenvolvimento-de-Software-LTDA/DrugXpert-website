@@ -1,4 +1,4 @@
-import { CheckCircle2 } from "lucide-react";
+import { BadgeCheck } from "lucide-react";
 import { pricingOptions } from "../../constants";
 
 const Subscribe = () => {
@@ -26,14 +26,19 @@ const Subscribe = () => {
               <ul>
                 {option.features.map((feature, index) => (
                   <li key={index} className="mt-8 flex items-center">
-                    <CheckCircle2 />
+                    <BadgeCheck color="green" />
                     <span className="ml-2">{feature}</span>
                   </li>
                 ))}
               </ul>
+              <div className="flex mt-5">
+                <h1>
+                  <a href="/pricing" className="underline text-lg hover:text-[#5c8d2f] transition-colors">See more</a>
+                </h1>
+              </div>
               <a
                 href="https://stripe.com/br?utm_adposition="
-                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-gradient-to-r from-[#5c8d2f] to-[#215153] border border-[#5c8d2f] hover:text-white rounded-lg transition duration-50"
+                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-10 tracking-tight text-xl hover:bg-gradient-to-r from-[#5c8d2f] to-[#215153] border border-[#5c8d2f] hover:text-white rounded-lg transition duration-50"
               >
                 Subscribe
               </a>

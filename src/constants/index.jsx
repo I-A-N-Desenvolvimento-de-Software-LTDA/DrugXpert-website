@@ -5,6 +5,7 @@ import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
+
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
 import user3 from "../assets/profile-pictures/user3.jpg";
@@ -163,9 +164,11 @@ export const subscribeOptions = [
       "1 Gb of Research Storage",
       "Analytics Dashboard",
       "10 API Calls",
-      "10 API Calls",
-      "10 API Calls",
-      "10 API Calls",
+      "Normal Support", 
+    ],
+    notOn: [
+      "Creating groups",
+      "Multi-Platform Compatibility",
     ],
   },
   {
@@ -176,9 +179,13 @@ export const subscribeOptions = [
       "5 Gb of Research Storage",
       "Analytics Dashboard (Advance)",
       "50 API Calls",
-      "50 API Calls",
-      "50 API Calls",
-      "50 API Calls",
+      "Dedicated Support",
+      "Creating groups",
+      "Multi-Platform Compatibility",  
+    ],
+    notOn: [
+      "Event discounts",
+      "Priority purchasing for events",
     ],
   },
   {
@@ -189,9 +196,15 @@ export const subscribeOptions = [
       "Unlimited of Research Storage",
       "High Performance Network",
       "100 API Calls",
-      "100 API Calls",
-      "100 API Calls",
-      "100 API Calls",
+      "24/7 Support",
+      "Creating private groups",
+      "Multi-Platform Compatibility",
+      "Event discounts",
+      "Priority purchasing for events",
+      "Access to exclusive Groups",
+    ],
+    notOn: [
+      
     ],
   },
 ];
