@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Helmet } from 'react-helmet'; // Importação do react-helmet
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
-import FeatureSection from "./components/FeatureSection";
+import FeatureSection from "./components/Features/FeatureSection";
 import Workflow from "./components/Workflow";
 import Footer from "./components/Footer";
 import Subscribe from "./components/Pricing/Subscribe";
@@ -13,6 +13,7 @@ import Terms from "./pages/Terms";
 import Privacy from './pages/Privacy';
 import Refund from './pages/Refund';
 import Pricing from './pages/Pricing';
+import Features from './pages/Features';
 
 const App = () => {
   return (
@@ -31,6 +32,15 @@ const App = () => {
               <Workflow />
               <Subscribe />
               <Testimonials />
+            </>
+          } />
+          <Route path="/features" element={
+            <>
+              <Helmet>
+                <title>DrugXpert | Features </title>
+                <meta name="description" content="Learn more about our mission and vision." />
+              </Helmet>
+              <Features />
             </>
           } />
           <Route path="/pricing" element={

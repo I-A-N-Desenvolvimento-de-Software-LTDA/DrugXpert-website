@@ -14,7 +14,7 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
+  { label: "Features", href: "/features" },
   { label: "Workflow", href: "#" },
   { label: "Pricing", href: "/pricing" },
   { label: "Documentation", href: "https://docs.drugxpert.net/" },
@@ -57,6 +57,51 @@ export const testimonials = [
     company: "Synergy Systems",
     image: user6,
     text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+  },
+];
+
+export const featuresPage = [
+  {
+    image: '/assets/drag-and-drop.jpg',
+    icon: <BotMessageSquare  size={36}/>,
+    text: "Drag-and-Drop Interface",
+    description:
+      "Speed up your research process with DrugXpert! Our intuitive drag-and-drop interface empowers you to build, analyze, and innovate like never before. Imagine a world where you can seamlessly create workflows, visualize data, and share insights without the hassle of complicated tools. With DrugXpert, we’ve eliminated the barriers that slow you down, allowing you to focus on what truly matters—your research. Whether you're collaborating with a team or working independently, our platform provides the flexibility and efficiency you need to accelerate your discoveries. Unleash your creative potential and watch your ideas come to life effortlessly. Join us on a journey to transform the way you conduct research and experience the future of innovation today!",
+  },
+  {
+    image: '/assets/multi-plataform.jpg',
+    icon: <Fingerprint  size={36}/>,
+    text: "Multi-Platform Compatibility",
+    description:
+      "Your research never stops, and neither does DrugXpert! Our powerful tools are at your fingertips, accessible from any device, anytime, anywhere. Imagine being able to dive into your research, collaborate with colleagues, and analyze data on the go, whether you’re at your desk, in the lab, or traveling. With DrugXpert, you can break free from the constraints of traditional research environments. Seamlessly switch between devices and continue your work without missing a beat. Stay connected and productive no matter where your research journey takes you. Embrace the freedom to innovate and explore without limits with DrugXpert by your side!",
+  },
+  {
+    image: '/assets/Built-in-Templates.jpg',
+    icon: <ShieldHalf size={36}/>,
+    text: "Built-in Templates",
+    description:
+      "From data collection to reporting, DrugXpert’s templates offer the essential structure you need to stay organized and productive! Our carefully designed templates streamline every aspect of your research process, ensuring that you have everything you need at your fingertips. Say goodbye to clutter and confusion; with DrugXpert, you can efficiently manage your data, maintain clear documentation, and generate comprehensive reports with ease. Each template is tailored to facilitate your workflow, allowing you to focus on your research objectives rather than getting bogged down in the details. Elevate your productivity and keep your projects on track, all while enjoying a seamless user experience. Let DrugXpert be your trusted partner in navigating the complexities of research, so you can achieve your goals with confidence!",
+  },
+  {
+    image: '/assets/real-time.jpg',
+    icon: <BatteryCharging size={36}/>,
+    text: "Real-Time Preview",
+    description:
+      "Stay ahead of the curve with DrugXpert’s Real-Time Preview—experience drug data and research insights as they happen! Our cutting-edge feature allows you to monitor and analyze your research in real-time, giving you immediate access to crucial information that can shape your decisions. Imagine having the ability to track changes, observe trends, and gain insights the moment they occur, all in one streamlined platform. With DrugXpert, you’ll never miss a beat, empowering you to respond swiftly to new developments and make informed choices that drive your research forward. Embrace the future of research with confidence, knowing that you have the latest data at your fingertips. Transform the way you engage with your research and stay at the forefront of innovation with DrugXpert!",
+  },
+  {
+    image: '/assets/colab-tools.jpg',
+    icon: <PlugZap size={36}/>,
+    text: "Collaboration Tools",
+    description:
+      "Break down barriers in drug research with DrugXpert's collaboration tools—designed to foster teamwork and amplify your results! In today's fast-paced research environment, collaboration is key to success. DrugXpert empowers you and your team to work together seamlessly, whether you’re in the same room or across the globe. Our innovative collaboration tools make it easy to share insights, exchange feedback, and collectively tackle challenges in real-time. With features that streamline communication and integrate your research efforts, you can harness the full potential of your team's diverse expertise. Say goodbye to silos and inefficiencies; with DrugXpert, you'll cultivate a culture of collaboration that drives meaningful progress and accelerates your research outcomes. Unite your team and elevate your drug research to new heights!",
+  },
+  {
+    image: '/assets/dashboard-real-time.jpg',
+    icon: <GlobeLock size={36}/>,
+    text: "Analytics Dashboard",
+    description:
+      "Elevate your research with real-time data visualization! DrugXpert’s Analytics Dashboard provides you with the full picture, transforming complex data into clear, actionable insights. With our advanced visualization tools, you can effortlessly track trends, identify patterns, and gain a deeper understanding of your research outcomes. No more sifting through endless spreadsheets; our intuitive dashboard allows you to visualize your data in dynamic charts and graphs that highlight key metrics at a glance. Whether you’re presenting findings to stakeholders or making critical decisions, DrugXpert equips you with the insights you need, right when you need them. Experience the power of real-time analytics and take your research to new heights with DrugXpert!",
   },
 ];
 
@@ -218,7 +263,7 @@ export const resourcesLinks = [
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
+  { href: "/features", text: "Features" },
   { href: "#", text: "Supported Devices" },
   { href: "#", text: "System Requirements" },
   { href: "#", text: "Downloads" },
