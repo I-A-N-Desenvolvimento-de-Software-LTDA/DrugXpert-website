@@ -38,7 +38,7 @@ const App = () => {
             <>
               <Helmet>
                 <title>DrugXpert | Features </title>
-                <meta name="description" content="Learn more about our mission and vision." />
+                <meta name="description" content="Explore the innovative features of DrugXpert." />
               </Helmet>
               <Features />
             </>
