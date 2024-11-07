@@ -254,6 +254,73 @@ export const subscribeOptions = [
   },
 ];
 
+export const PartnersIndex = [
+  {
+    image: '/assets/drag-and-drop.jpg',
+    icon: <BotMessageSquare  size={26}/>,
+    text: "ChEMBL",
+    description:
+      "Speed up your research process with DrugXpert!"
+      },
+  {
+    image: '/assets/multi-plataform.jpg',
+    icon: <Fingerprint  size={26}/>,
+    text: "NIH National Cancer Institute",
+    description:
+      "Speed up your research process with DrugXpert!" 
+    },
+  {
+    image: '/assets/Built-in-Templates.jpg',
+    icon: <ShieldHalf size={26}/>,
+    text: "U.S. Environmental Protection Agency",
+    description:
+   "Speed up your research process with DrugXpert!" 
+  },
+  {
+    image: '/assets/real-time.jpg',
+    icon: <BatteryCharging size={26}/>,
+    text: "Human Microbiome Project",
+    description:
+      "Speed up your research process with DrugXpert!"
+     },
+  {
+    image: '/assets/colab-tools.jpg',
+    icon: <PlugZap size={26}/>,
+    text: "Nvidia Corporation",
+    description:
+ "Speed up your research process with DrugXpert!"
+ },
+  {
+    image: '/assets/dashboard-real-time.jpg',
+    icon: <GlobeLock size={26}/>,
+    text: "Protein Structure Initiative",
+    description:
+  "Speed up your research process with DrugXpert!"
+ },
+ {
+  image: '/assets/real-time.jpg',
+  icon: <BatteryCharging size={26}/>,
+  text: "Food and Drug Administration",
+  description:
+    "Speed up your research process with DrugXpert!"
+   },
+{
+  image: '/assets/colab-tools.jpg',
+  icon: <PlugZap size={26}/>,
+  text: " National Institute of Mental Health",
+  description:
+"Speed up your research process with DrugXpert!"
+},
+{
+  image: '/assets/dashboard-real-time.jpg',
+  icon: <GlobeLock size={26}/>,
+  text: "PubChem",
+  description:
+"Speed up your research process with DrugXpert!"
+},
+];
+
+
 export const resourcesLinks = [
   { href: "https://app.drugxpert.net/auth-page/signup", text: "Getting Started" },
   { href: "https://docs.drugxpert.net/", text: "Documentation" },
