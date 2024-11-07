@@ -272,7 +272,7 @@ export const platformLinks = [
 
 export const communityLinks = [
   { href: "#", text: "Events" },
-  { href: "#", text: "Meetups" },
+  { href: "/partners", text: "Partners" },
   { href: "#", text: "Conferences" },
   { href: "#", text: "Hackathons" },
   { href: "#", text: "Jobs" },

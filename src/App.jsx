@@ -14,6 +14,7 @@ import Privacy from './pages/Privacy';
 import Refund from './pages/Refund';
 import Pricing from './pages/Pricing';
 import Features from './pages/Features';
+import Partners from './components/Partners';
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
               <HeroSection />
               <FeatureSection />
               <Workflow />
+              <Partners/>
               <Subscribe />
               <Testimonials />
             </>
@@ -59,6 +61,15 @@ const App = () => {
                 <meta name="description" content="Learn more about our mission and vision." />
               </Helmet>
               <About />
+            </>
+          } />
+          <Route path="/partners" element={
+            <>
+              <Helmet>
+                <title>DrugXpert | Partners</title>
+                <meta name="description" content="Check out our Partners." />
+              </Helmet>
+              <Refund />
             </>
           } />
           <Route path="/terms" element={
