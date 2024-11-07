@@ -1,12 +1,12 @@
-import Chembl from "/public/assets/Partners/Chembl_logo.png";
-import Nvidia from "/public/assets/Partners/nvidia-logo-horz.png";
-import EPA from "/public/assets/Partners/EPA_logo.svg";
-import FDA from "/public/assets/Partners/FDA.jpg";
-import NIH from "/public/assets/Partners/NIH.png";
-import NCI from "/public/assets/Partners/NCI.png";
-import Pubchem from "/public/assets/Partners/Pubchemlogo.png";
+import Chembl from "/assets/Partners/Chembl_logo.png";
+import Nvidia from "/assets/Partners/nvidia-logo-horz.png";
+import EPA from "/assets/Partners/EPA_logo.svg";
+import FDA from "/assets/Partners/FDA.jpg";
+import NIH from "/assets/Partners/NIH.png";
+import NCI from "/assets/Partners/NCI.png";
+import Pubchem from "/assets/Partners/Pubchemlogo.png";
 
-const Partners = () => {
+const PartnersSection = () => {
   return (
     <div className="">
       <h4 className="text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wide">
@@ -68,4 +68,4 @@ const Partners = () => {
   );
 };
 
-export default Partners;
+export default PartnersSection;

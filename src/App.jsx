@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Helmet } from 'react-helmet'; // Importação do react-helmet
+import { Helmet } from 'react-helmet'; 
+
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import FeatureSection from "./components/Features/FeatureSection";
@@ -8,13 +9,17 @@ import Workflow from "./components/Workflow";
 import Footer from "./components/Footer";
 import Subscribe from "./components/Pricing/Subscribe";
 import Testimonials from "./components/Testimonials";
+import PartnersSection from './components/Partners/PartnersSection';
+
 import About from './pages/About';
 import Terms from "./pages/Terms"; 
 import Privacy from './pages/Privacy';
 import Refund from './pages/Refund';
 import Pricing from './pages/Pricing';
 import Features from './pages/Features';
-import Partners from './components/Partners';
+import Partners from './pages/Partners';
+
+
 
 const App = () => {
   return (
@@ -31,7 +36,7 @@ const App = () => {
               <HeroSection />
               <FeatureSection />
               <Workflow />
-              <Partners/>
+              <PartnersSection/>
               <Subscribe />
               <Testimonials />
             </>
@@ -63,15 +68,17 @@ const App = () => {
               <About />
             </>
           } />
+
           <Route path="/partners" element={
             <>
               <Helmet>
                 <title>DrugXpert | Partners</title>
                 <meta name="description" content="Check out our Partners." />
               </Helmet>
-              <Refund />
+              <Partners />
             </>
           } />
+
           <Route path="/terms" element={
             <>
               <Helmet>
