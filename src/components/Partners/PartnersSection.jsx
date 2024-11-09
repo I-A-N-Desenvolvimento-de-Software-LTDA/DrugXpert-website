@@ -5,6 +5,8 @@ import FDA from "/assets/Partners/FDA.jpg";
 import NIH from "/assets/Partners/NIH.png";
 import NCI from "/assets/Partners/NCI.png";
 import Pubchem from "/assets/Partners/Pubchemlogo.png";
+import HumanMicrobiome from "/assets/Partners/HumanMicrobiome.jpg";
+import PSI from "/assets/Partners/PSI_Logo.png";
 
 const PartnersSection = () => {
   return (
@@ -37,7 +39,21 @@ const PartnersSection = () => {
         </div>
         <div className="flex flex-col items-center">
           <img
+            src={HumanMicrobiome}
+            alt="Parceiro Chembl"
+            className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
+          />
+        </div>
+        <div className="flex flex-col items-center">
+          <img
             src={Nvidia}
+            alt="Parceiro Nvidia"
+            className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
+          />
+        </div>
+        <div className="flex flex-col items-center">
+          <img
+            src={PSI}
             alt="Parceiro Nvidia"
             className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
           />
