@@ -8,38 +8,41 @@ const PartnersPage = () => {
           Partners
         </span>
         <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-8 sm:mt-12 lg:mt-16 font-extrabold tracking-wide text-gray-800">
-        Partners in Healthcare and Life {" "}
+          Partners in Healthcare and Life{" "}
           <span className="bg-gradient-to-r from-[#5c8d2f] to-[#215153] text-transparent bg-clip-text">
-          Sciences
+            Sciences
           </span>
         </h2>
         <p className="mt-4 text-lg text-neutral-600 max-w-2xl mx-auto">
-        Discover DrugXpert Partners Accelerating the Digital Transformation of Healthcare
+          Discover DrugXpert Partners Accelerating the Digital Transformation of Healthcare
         </p>
       </div>
-      
+
       <div className="flex flex-wrap justify-center gap-6 mt-12 lg:mt-20">
-        {PartnersIndex.map((PartnersIndex, index) => (
-          <div
+        {PartnersIndex.map((partner, index) => (
+          <a
             key={index}
+            href={partner.link || "#"} // Adiciona o link ou "#" se não houver um link especificado
+            target="_blank" // Abre em uma nova aba
+            rel="noopener noreferrer"
             className="flex flex-col w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-4 bg-white rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl"
           >
             <div className="w-full mb-4">
               <img
-                src={PartnersIndex.image || 'default-image.png'}
-                alt={PartnersIndex.text}
+                src={partner.image || 'default-image.png'}
+                alt={partner.text}
                 className="w-full h-auto rounded-lg shadow-md object-cover"
               />
             </div>
             <div className="flex items-center mb-4">
               <h5 className="ml-4 text-lg sm:text-xl font-semibold text-gray-800">
-                {PartnersIndex.text}
+                {partner.text}
               </h5>
             </div>
             <p className="text-sm sm:text-base text-neutral-600">
-              {PartnersIndex.description}
+              {partner.description}
             </p>
-          </div>
+          </a>
         ))}
       </div>
     </div>

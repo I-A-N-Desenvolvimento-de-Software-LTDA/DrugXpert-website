@@ -257,63 +257,63 @@ export const subscribeOptions = [
 export const PartnersIndex = [
   {
     image: '/assets/Partners/PartnersPage/chEMBL.png',
-    icon: <BotMessageSquare  size={26}/>,
+    link: "https://www.ebi.ac.uk/chembl/",
     text: "ChEMBL",
     description:
       "ChEMBL is a manually curated database of bioactive molecules with drug-like properties."
       },
   {
     image: '/assets/Partners/PartnersPage/NCI.png',
-    icon: <Fingerprint  size={26}/>,
+    link: "https://www.nih.gov/about-nih/what-we-do/nih-almanac/national-cancer-institute-nci",
     text: "NIH National Cancer Institute",
     description:
       "The National Cancer Institute (NCI) is the federal government’s principal agency for cancer research and training" 
     },
   {
     image: '/assets/Partners/PartnersPage/EPA.png',
-    icon: <ShieldHalf size={26}/>,
+    link: "https://www.epa.gov/",
     text: "U.S. Environmental Protection Agency",
     description:
    "The U.S. Environmental Protection Agency is an independent agency of the United States government responsible for protecting human health and the environment." 
   },
   {
     image: '/assets/Partners/PartnersPage/HMP.png',
-    icon: <BatteryCharging size={26}/>,
+    link: "https://hmpdacc.org/hmp/",
     text: "Human Microbiome Project",
     description:
       "The Human Microbiome Project (HMP) was a research initiative launched by the United States National Institutes of Health (NIH) in 2007."
      },
   {
     image: '/assets/Partners/PartnersPage/NVIDIA.png',
-    icon: <PlugZap size={26}/>,
+    link: "https://www.nvidia.com/en-us/industries/healthcare-life-sciences/",
     text: "Nvidia Corporation",
     description:
       "Accelerated computing and AI are driving the next generation of medical devices and biomedical research."
  },
   {
     image: '/assets/Partners/PartnersPage/PSI.png',
-    icon: <GlobeLock size={26}/>,
+    link: "https://pubmed.ncbi.nlm.nih.gov/19010965/",
     text: "Protein Structure Initiative",
     description:
       "The Protein Structure Initiative was a USA based project that aimed at accelerating discovery in structural genomics and contribute to understanding biological function."
  },
  {
   image: '/assets/Partners/PartnersPage/FDA.png',
-  icon: <BatteryCharging size={26}/>,
+  link: "https://www.fda.gov/",
   text: "Food and Drug Administration",
   description:
      "The Food and Drug Administration is a federal agency of the United States Department of Health and Human Services, one of the federal executive departments of the United States."
    },
 {
   image: '/assets/Partners/PartnersPage/NIMH.png',
-  icon: <PlugZap size={26}/>,
-  text: " National Institute of Mental Health",
+  link: "https://www.nimh.nih.gov/",
+  text: "National Institute of Mental Health",
   description:
       "The National Institute of Mental Health (NIMH) is one of 27 institutes and centers that make up the National Institutes of Health (NIH)."
 },
 {
   image: '/assets/Partners/PartnersPage/PUBCHEM.png',
-  icon: <GlobeLock size={26}/>,
+  link: "https://pubchem.ncbi.nlm.nih.gov/",
   text: "PubChem",
   description:
       "PubChem is the world's largest collection of freely accessible chemical information. Search chemicals by name, molecular formula, structure, and other identifiers."
