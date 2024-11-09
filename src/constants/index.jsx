@@ -256,67 +256,67 @@ export const subscribeOptions = [
 
 export const PartnersIndex = [
   {
-    image: '/assets/drag-and-drop.jpg',
+    image: '/assets/Partners/PartnersPage/chEMBL.png',
     icon: <BotMessageSquare  size={26}/>,
     text: "ChEMBL",
     description:
-      "Speed up your research process with DrugXpert!"
+      "ChEMBL is a manually curated database of bioactive molecules with drug-like properties."
       },
   {
-    image: '/assets/multi-plataform.jpg',
+    image: '/assets/Partners/PartnersPage/NCI.png',
     icon: <Fingerprint  size={26}/>,
     text: "NIH National Cancer Institute",
     description:
-      "Speed up your research process with DrugXpert!" 
+      "The National Cancer Institute (NCI) is the federal government’s principal agency for cancer research and training" 
     },
   {
-    image: '/assets/Built-in-Templates.jpg',
+    image: '/assets/Partners/PartnersPage/EPA.png',
     icon: <ShieldHalf size={26}/>,
     text: "U.S. Environmental Protection Agency",
     description:
-   "Speed up your research process with DrugXpert!" 
+   "The U.S. Environmental Protection Agency is an independent agency of the United States government responsible for protecting human health and the environment." 
   },
   {
-    image: '/assets/real-time.jpg',
+    image: '/assets/Partners/PartnersPage/HMP.png',
     icon: <BatteryCharging size={26}/>,
     text: "Human Microbiome Project",
     description:
-      "Speed up your research process with DrugXpert!"
+      "The Human Microbiome Project (HMP) was a research initiative launched by the United States National Institutes of Health (NIH) in 2007."
      },
   {
-    image: '/assets/colab-tools.jpg',
+    image: '/assets/Partners/PartnersPage/NVIDIA.png',
     icon: <PlugZap size={26}/>,
     text: "Nvidia Corporation",
     description:
- "Speed up your research process with DrugXpert!"
+      "Accelerated computing and AI are driving the next generation of medical devices and biomedical research."
  },
   {
-    image: '/assets/dashboard-real-time.jpg',
+    image: '/assets/Partners/PartnersPage/PSI.png',
     icon: <GlobeLock size={26}/>,
     text: "Protein Structure Initiative",
     description:
-  "Speed up your research process with DrugXpert!"
+      "The Protein Structure Initiative was a USA based project that aimed at accelerating discovery in structural genomics and contribute to understanding biological function."
  },
  {
-  image: '/assets/real-time.jpg',
+  image: '/assets/Partners/PartnersPage/FDA.png',
   icon: <BatteryCharging size={26}/>,
   text: "Food and Drug Administration",
   description:
-    "Speed up your research process with DrugXpert!"
+     "The Food and Drug Administration is a federal agency of the United States Department of Health and Human Services, one of the federal executive departments of the United States."
    },
 {
-  image: '/assets/colab-tools.jpg',
+  image: '/assets/Partners/PartnersPage/NIMH.png',
   icon: <PlugZap size={26}/>,
   text: " National Institute of Mental Health",
   description:
-"Speed up your research process with DrugXpert!"
+      "The National Institute of Mental Health (NIMH) is one of 27 institutes and centers that make up the National Institutes of Health (NIH)."
 },
 {
-  image: '/assets/dashboard-real-time.jpg',
+  image: '/assets/Partners/PartnersPage/PUBCHEM.png',
   icon: <GlobeLock size={26}/>,
   text: "PubChem",
   description:
-"Speed up your research process with DrugXpert!"
+      "PubChem is the world's largest collection of freely accessible chemical information. Search chemicals by name, molecular formula, structure, and other identifiers."
 },
 ];
 

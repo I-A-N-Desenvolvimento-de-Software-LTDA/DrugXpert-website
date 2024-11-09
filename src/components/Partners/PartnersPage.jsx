@@ -8,13 +8,13 @@ const PartnersPage = () => {
           Partners
         </span>
         <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-8 sm:mt-12 lg:mt-16 font-extrabold tracking-wide text-gray-800">
-          Boost Productivity{" "}
+        Partners in Healthcare and Life {" "}
           <span className="bg-gradient-to-r from-[#5c8d2f] to-[#215153] text-transparent bg-clip-text">
-            Effortlessly
+          Sciences
           </span>
         </h2>
         <p className="mt-4 text-lg text-neutral-600 max-w-2xl mx-auto">
-          Discover the tools that empower you to work smarter, not harder.
+        Discover DrugXpert Partners Accelerating the Digital Transformation of Healthcare
         </p>
       </div>
       
@@ -32,9 +32,6 @@ const PartnersPage = () => {
               />
             </div>
             <div className="flex items-center mb-4">
-              <div className="flex h-18 w-8 sm:h-12 sm:w-12 bg-gradient-to-br from-[#5c8d2f] to-[#215153] text-white justify-center items-center rounded-full shadow-md">
-                {PartnersIndex.icon}
-              </div>
               <h5 className="ml-4 text-lg sm:text-xl font-semibold text-gray-800">
                 {PartnersIndex.text}
               </h5>
