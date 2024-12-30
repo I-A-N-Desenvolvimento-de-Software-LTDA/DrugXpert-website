@@ -18,7 +18,7 @@ import Refund from './pages/Refund';
 import Pricing from './pages/Pricing';
 import Features from './pages/Features';
 import Partners from './pages/Partners';
-
+import Devices from './pages/Devices';
 
 
 const App = () => {
@@ -104,6 +104,15 @@ const App = () => {
                 <meta name="description" content="Check out our refund policy." />
               </Helmet>
               <Refund />
+            </>
+          } />
+          <Route path="/supported-devices" element={
+            <>
+              <Helmet>
+                <title>DrugXpert | Supported Devices</title>
+                <meta name="description" content="Check out our refund policy." />
+              </Helmet>
+              <Devices/>
             </>
           } />
         </Routes>
