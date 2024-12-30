@@ -331,7 +331,7 @@ export const resourcesLinks = [
 
 export const platformLinks = [
   { href: "/features", text: "Features" },
-  { href: "#", text: "Supported Devices" },
+  { href: "/supported-devices", text: "Supported Devices" },
   { href: "#", text: "System Requirements" },
   { href: "#", text: "Downloads" },
   { href: "#", text: "Release Notes" },
