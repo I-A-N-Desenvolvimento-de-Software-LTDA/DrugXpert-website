@@ -110,7 +110,7 @@ const App = () => {
             <>
               <Helmet>
                 <title>DrugXpert | Supported Devices</title>
-                <meta name="description" content="Check out our refund policy." />
+                <meta name="description" content="Check out our supported devices." />
               </Helmet>
               <Devices/>
             </>

@@ -339,6 +339,7 @@ export const platformLinks = [
 
 export const communityLinks = [
   { href: "#", text: "Events" },
+  { href: "#", text: "Blog" },
   { href: "/partners", text: "Partners" },
   { href: "#", text: "Conferences" },
   { href: "#", text: "Hackathons" },
