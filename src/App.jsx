@@ -19,6 +19,7 @@ import Pricing from './pages/Pricing';
 import Features from './pages/Features';
 import Partners from './pages/Partners';
 import Devices from './pages/Devices';
+import Blog from './pages/Blog';
 
 
 const App = () => {
@@ -113,6 +114,15 @@ const App = () => {
                 <meta name="description" content="Check out our supported devices." />
               </Helmet>
               <Devices/>
+            </>
+          } />
+          <Route path="/blog" element={
+            <>
+              <Helmet>
+                <title>DrugXpert | Blog</title>
+                <meta name="description" content="Check out our supported devices." />
+              </Helmet>
+              <Blog/>
             </>
           } />
         </Routes>
