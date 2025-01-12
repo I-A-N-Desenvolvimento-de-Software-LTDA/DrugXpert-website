@@ -322,7 +322,7 @@ export const PartnersIndex = [
 
 export const featuredArticle = {
   title: 'Breaking Scientific News',
-  image: 'https://via.placeholder.com/800x400',
+  image: 'public/assets/articles/via.placeholder.png',
   description: 'A groundbreaking scientific discovery has just been unveiled, promising to revolutionize technology in the coming years. Leading researchers have announced a breakthrough that could impact various sectors, from healthcare to artificial intelligence, marking a new era in global innovation.',
   preview: 'A sneak peek of the featured article to capture the reader\'s attention and encourage them to learn more.',
   link: '/featured-news'
@@ -331,37 +331,37 @@ export const featuredArticle = {
 export const articles = [
   {
     title: 'New Drug Targets Brain Cancer Cells',
-    image: 'https://via.placeholder.com/400x200',
+    image: 'public/assets/articles/via.placeholder.png',
     description: 'A team of scientists has developed a novel drug that targets brain cancer cells with greater precision. The treatment, currently in clinical trials, shows promise in improving survival rates and reducing side effects compared to traditional therapies.',
     link: '/news-1'
   },
   {
     title: 'Sustainable Pharmaceutical Manufacturing Breakthrough',
-    image: 'https://via.placeholder.com/400x200',
+    image: 'public/assets/articles/via.placeholder.png',
     description: 'Researchers have discovered a new, eco-friendly method for producing essential pharmaceuticals. This innovative process reduces waste and energy consumption, providing a more sustainable approach to drug production.',
     link: '/news-2'
   },
   {
     title: 'AI Revolutionizes Drug Discovery',
-    image: 'https://via.placeholder.com/400x200',
+    image: 'public/assets/articles/via.placeholder.png',
     description: 'Artificial intelligence is now playing a major role in speeding up the drug discovery process. Scientists are using AI to analyze massive data sets, uncovering potential new drug compounds faster and more efficiently than ever before.',
     link: '/news-3'
   },
   {
     title: 'New Vaccine Shows Promise Against Rare Diseases',
-    image: 'https://via.placeholder.com/400x200',
+    image: 'public/assets/articles/via.placeholder.png',
     description: 'A newly developed vaccine is showing promising results in preventing rare, genetic diseases. The vaccine is currently undergoing human trials, with researchers optimistic about its potential to save lives worldwide.',
     link: '/news-4'
   },
   {
     title: 'Breakthrough in Antibiotic Resistance Research',
-    image: 'https://via.placeholder.com/400x200',
+    image: 'public/assets/articles/via.placeholder.png',
     description: 'A breakthrough in the fight against antibiotic resistance has been made. Scientists have discovered a new class of antibiotics that can fight superbugs, offering new hope in the battle against drug-resistant infections.',
     link: '/news-5'
   },
   {
     title: 'Pharmaceutical Industry Focuses on Personalized Medicine',
-    image: 'https://via.placeholder.com/400x200',
+    image: 'public/assets/articles/via.placeholder.png',
     description: 'The pharmaceutical industry is shifting towards personalized medicine, tailoring treatments to individual patients based on their genetic makeup. This shift is expected to improve treatment outcomes and reduce adverse drug reactions.',
     link: '/news-6'
   },
