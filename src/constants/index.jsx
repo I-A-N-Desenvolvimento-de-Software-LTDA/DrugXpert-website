@@ -16,8 +16,9 @@ import user6 from "../assets/profile-pictures/user6.jpg";
 export const navItems = [
   { label: "Features", href: "/features" },
   { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "/pricing" },
   { label: "Documentation", href: "https://docs.drugxpert.net/" },
+  { label: "Pricing", href: "/pricing" },
+  { label: "Blog", href: "https://blog.drugxpert.net/" },
   { label: "About", href: "/about" },
 ];
 
@@ -320,6 +321,54 @@ export const PartnersIndex = [
 },
 ];
 
+export const featuredArticle = {
+  title: 'Electron microscopy reveals how ruthenium reordering boosts hydrogen production from ammonia',
+  image: 'public/assets/articles/amonia.jpg',
+  description: 'Scanning transmission electron microscopy experiments have uncovered the structural changes a ruthenium catalyst undergoes that increase its activity during an ammonia cracking reaction. The findings could help researchers design better heterogenous catalysts in the future.',
+  preview: 'A sneak peek of the featured article to capture the reader\'s attention and encourage them to learn more.',
+  link: 'https://blog.drugxpert.net/'
+};
+
+export const articles = [
+  {
+    title: 'Metal alloy shows practically no thermal expansion over extremely large temperature interval',
+    image: 'public/assets/articles/new-alloy-shows-practi.jpg',
+    description: 'Most metals expand when their temperature rises. The Eiffel Tower, for example, is about 10 to 15 centimeters taller in summer than in winter due to its thermal expansion. However, this effect is extremely undesirable for many technical applications.',
+    link: 'https://blog.drugxpert.net/'
+  },
+  {
+    title: 'Australia Bans DeepSeek From Government Tech on Security Concern',
+    image: 'public/assets/articles/deepseek.jpg',
+    description: 'Australia has banned DeepSeek AI services from all government systems and devices, becoming one of the first countries to take direct action against a Chinese artificial intelligence startup that shook Silicon Valley and global markets this year.',
+    link: 'https://blog.drugxpert.net/'
+  },
+  {
+    title: 'Attention, Spoiled Software Engineers: Take a Lesson from Google’s Programming Language',
+    image: 'public/assets/articles/Go Faux.png',
+    description: 'The language Go hails from an era when programmers had smaller egos and fewer commercial ambitions. My generation of strivers has a lot to learn.',
+    link: 'https://blog.drugxpert.net/'
+  },
+  {
+    title: 'Meta says this is the make or break year for the metaverse',
+    image: 'public/assets/articles/QuestHermano2.png',
+    description: '  Meta CTO Andrew Bosworth is giving the metaverse a year to become a hit, according to an internal forum post reported by Business Insider. That time period will determine whether Reality Labs’ mixed reality efforts are “the work of visionaries or a legendary misadventure,” he writes.  ',
+    link: 'https://blog.drugxpert.net/'
+  },
+  {
+    title: 'Breakthrough in Antibiotic Resistance Research',
+    image: 'public/assets/articles/via.placeholder.png',
+    description: 'A breakthrough in the fight against antibiotic resistance has been made. Scientists have discovered a new class of antibiotics that can fight superbugs, offering new hope in the battle against drug-resistant infections.',
+    link: 'https://blog.drugxpert.net/'
+  },
+  {
+    title: 'Pharmaceutical Industry Focuses on Personalized Medicine',
+    image: 'public/assets/articles/via.placeholder.png',
+    description: 'The pharmaceutical industry is shifting towards personalized medicine, tailoring treatments to individual patients based on their genetic makeup. This shift is expected to improve treatment outcomes and reduce adverse drug reactions.',
+    link: 'https://blog.drugxpert.net/'
+  },
+];
+
+
 
 export const resourcesLinks = [
   { href: "https://app.drugxpert.net/auth-page/signup", text: "Getting Started" },
@@ -339,6 +388,7 @@ export const platformLinks = [
 
 export const communityLinks = [
   { href: "#", text: "Events" },
+  { href: "https://blog.drugxpert.net/", text: "Blog" },
   { href: "/partners", text: "Partners" },
   { href: "#", text: "Conferences" },
   { href: "#", text: "Hackathons" },

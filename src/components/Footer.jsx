@@ -2,7 +2,7 @@ import { resourcesLinks, platformLinks, communityLinks, companyLinks } from "../
 
 const Footer = () => {
   return (
-    <footer className="mt-20 border-t py-10 border-neutral-700">
+    <footer className="mt-20 border-t py-10 border-neutral-700 mx-5">
       <div className="max-w-7xl mx-auto px-4 flex flex-wrap justify-between gap-4">
         <div className="flex-1 min-w-[150px]">
           <h3 className="text-md font-semibold mb-4">Resources</h3>

@@ -8,6 +8,7 @@ import FeatureSection from "./components/Features/FeatureSection";
 import Workflow from "./components/Workflow";
 import Footer from "./components/Footer";
 import Subscribe from "./components/Pricing/Subscribe";
+import BlogSection from "./components/BlogSection";
 import Testimonials from "./components/Testimonials";
 import PartnersSection from './components/Partners/PartnersSection';
 
@@ -19,6 +20,7 @@ import Pricing from './pages/Pricing';
 import Features from './pages/Features';
 import Partners from './pages/Partners';
 import Devices from './pages/Devices';
+import Blog from './pages/Blog';
 
 
 const App = () => {
@@ -38,6 +40,11 @@ const App = () => {
               <Workflow />
               <PartnersSection/>
               <Subscribe />
+              <Helmet>
+                <title>DrugXpert | Blog</title>
+                <meta name="description" content="Latest updates and articles from DrugXpert." />
+              </Helmet>
+              <BlogSection/>
               <Testimonials />
             </>
           } />
@@ -110,9 +117,18 @@ const App = () => {
             <>
               <Helmet>
                 <title>DrugXpert | Supported Devices</title>
-                <meta name="description" content="Check out our refund policy." />
+                <meta name="description" content="Check out our supported devices." />
               </Helmet>
               <Devices/>
+            </>
+          } />
+          <Route path="/blog" element={
+            <>
+              <Helmet>
+                <title>DrugXpert | Blog</title>
+                <meta name="description" content="Check out our supported devices." />
+              </Helmet>
+              <Blog/>
             </>
           } />
         </Routes>
