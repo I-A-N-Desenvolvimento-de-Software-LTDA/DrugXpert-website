@@ -8,6 +8,7 @@ import FeatureSection from "./components/Features/FeatureSection";
 import Workflow from "./components/Workflow";
 import Footer from "./components/Footer";
 import Subscribe from "./components/Pricing/Subscribe";
+import BlogSection from "./components/BlogSection";
 import Testimonials from "./components/Testimonials";
 import PartnersSection from './components/Partners/PartnersSection';
 
@@ -39,6 +40,11 @@ const App = () => {
               <Workflow />
               <PartnersSection/>
               <Subscribe />
+              <Helmet>
+                <title>DrugXpert | Blog</title>
+                <meta name="description" content="Latest updates and articles from DrugXpert." />
+              </Helmet>
+              <BlogSection/>
               <Testimonials />
             </>
           } />

@@ -16,8 +16,9 @@ import user6 from "../assets/profile-pictures/user6.jpg";
 export const navItems = [
   { label: "Features", href: "/features" },
   { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "/pricing" },
   { label: "Documentation", href: "https://docs.drugxpert.net/" },
+  { label: "Pricing", href: "/pricing" },
+  { label: "Blog", href: "https://blog.drugxpert.net/" },
   { label: "About", href: "/about" },
 ];
 
@@ -336,21 +337,21 @@ export const articles = [
     link: 'https://blog.drugxpert.net/'
   },
   {
-    title: 'Sustainable Pharmaceutical Manufacturing Breakthrough',
-    image: 'public/assets/articles/via.placeholder.png',
-    description: 'Researchers have discovered a new, eco-friendly method for producing essential pharmaceuticals. This innovative process reduces waste and energy consumption, providing a more sustainable approach to drug production.',
+    title: 'Australia Bans DeepSeek From Government Tech on Security Concern',
+    image: 'public/assets/articles/deepseek.jpg',
+    description: 'Australia has banned DeepSeek AI services from all government systems and devices, becoming one of the first countries to take direct action against a Chinese artificial intelligence startup that shook Silicon Valley and global markets this year.',
     link: 'https://blog.drugxpert.net/'
   },
   {
-    title: 'AI Revolutionizes Drug Discovery',
-    image: 'public/assets/articles/via.placeholder.png',
-    description: 'Artificial intelligence is now playing a major role in speeding up the drug discovery process. Scientists are using AI to analyze massive data sets, uncovering potential new drug compounds faster and more efficiently than ever before.',
+    title: 'Attention, Spoiled Software Engineers: Take a Lesson from Google’s Programming Language',
+    image: 'public/assets/articles/Go Faux.png',
+    description: 'The language Go hails from an era when programmers had smaller egos and fewer commercial ambitions. My generation of strivers has a lot to learn.',
     link: 'https://blog.drugxpert.net/'
   },
   {
-    title: 'New Vaccine Shows Promise Against Rare Diseases',
-    image: 'public/assets/articles/via.placeholder.png',
-    description: 'A newly developed vaccine is showing promising results in preventing rare, genetic diseases. The vaccine is currently undergoing human trials, with researchers optimistic about its potential to save lives worldwide.',
+    title: 'Meta says this is the make or break year for the metaverse',
+    image: 'public/assets/articles/QuestHermano2.png',
+    description: '  Meta CTO Andrew Bosworth is giving the metaverse a year to become a hit, according to an internal forum post reported by Business Insider. That time period will determine whether Reality Labs’ mixed reality efforts are “the work of visionaries or a legendary misadventure,” he writes.  ',
     link: 'https://blog.drugxpert.net/'
   },
   {
@@ -387,7 +388,7 @@ export const platformLinks = [
 
 export const communityLinks = [
   { href: "#", text: "Events" },
-  { href: "/blog", text: "Blog" },
+  { href: "https://blog.drugxpert.net/", text: "Blog" },
   { href: "/partners", text: "Partners" },
   { href: "#", text: "Conferences" },
   { href: "#", text: "Hackathons" },
