@@ -332,19 +332,19 @@ export const featuredArticle = {
 export const articles = [
   {
     title: 'Metal alloy shows practically no thermal expansion over extremely large temperature interval',
-    image: 'public/assets/articles/new-alloy-shows-practi.jpg',
+    image: '/assets/articles/new-alloy-shows-practi.jpg',
     description: 'Most metals expand when their temperature rises. The Eiffel Tower, for example, is about 10 to 15 centimeters taller in summer than in winter due to its thermal expansion. However, this effect is extremely undesirable for many technical applications.',
     link: 'https://blog.drugxpert.net/'
   },
   {
     title: 'Australia Bans DeepSeek From Government Tech on Security Concern',
-    image: 'public/assets/articles/deepseek.jpg',
+    image: '/assets/articles/deepseek.jpg',
     description: 'Australia has banned DeepSeek AI services from all government systems and devices, becoming one of the first countries to take direct action against a Chinese artificial intelligence startup that shook Silicon Valley and global markets this year.',
     link: 'https://blog.drugxpert.net/'
   },
   {
     title: 'Attention, Spoiled Software Engineers: Take a Lesson from Google’s Programming Language',
-    image: 'public/assets/articles/Go Faux.png',
+    image: '/assets/articles/Go Faux.png',
     description: 'The language Go hails from an era when programmers had smaller egos and fewer commercial ambitions. My generation of strivers has a lot to learn.',
     link: 'https://blog.drugxpert.net/'
   },

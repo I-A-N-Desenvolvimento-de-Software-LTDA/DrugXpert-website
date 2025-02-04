@@ -7,7 +7,7 @@ import HeroSection from "./components/HeroSection";
 import FeatureSection from "./components/Features/FeatureSection";
 import Workflow from "./components/Workflow";
 import Footer from "./components/Footer";
-import Subscribe from "./components/Pricing/Subscribe";
+import Subscribe from "./components/Pricing/Subscribe"; 
 import BlogSection from "./components/BlogSection";
 import Testimonials from "./components/Testimonials";
 import PartnersSection from './components/Partners/PartnersSection';
