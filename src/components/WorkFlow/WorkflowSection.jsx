@@ -1,6 +1,6 @@
 import { CheckCircle2 } from "lucide-react";
-import codeImg from "../assets/code3.png";
-import { checklistItems } from "../constants";
+import codeImg from "/assets/code3.png";
+import { checklistItems } from "../../constants";
 
 const Workflow = () => {
   return (
@@ -27,6 +27,11 @@ const Workflow = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="flex justify-center w-full mb-5 md:mb-0">
+          <h1>
+            <a href="/workflow" className="underline text-lg hover:text-[#5c8d2f] transition-colors">See more</a>
+          </h1>
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet';
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import FeatureSection from "./components/Features/FeatureSection";
-import Workflow from "./components/Workflow";
+import WorkflowSection from "./components/WorkFlow/WorkflowSection"
 import Footer from "./components/Footer";
 import Subscribe from "./components/Pricing/Subscribe";
 import BlogSection from "./components/BlogSection";
@@ -15,6 +15,7 @@ import PartnersSection from './components/Partners/PartnersSection';
 import About from './pages/About';
 import Terms from "./pages/Terms"; 
 import Privacy from './pages/Privacy';
+import Workflow from './pages/Workflow';
 import Refund from './pages/Refund';
 import Pricing from './pages/Pricing';
 import Features from './pages/Features';
@@ -35,11 +36,11 @@ const App = () => {
                 <title>DrugXpert | Home</title>
                 <meta name="description" content="Innovative platform for medication management." />
               </Helmet>
-              <HeroSection />
-              <FeatureSection />
-              <Workflow />
+              <HeroSection/>
+              <FeatureSection/>
+              <WorkflowSection/>
               <PartnersSection/>
-              <Subscribe />
+              <Subscribe/>
               <Helmet>
                 <title>DrugXpert | Blog</title>
                 <meta name="description" content="Latest updates and articles from DrugXpert." />
@@ -64,6 +65,15 @@ const App = () => {
                 <meta name="description" content="Learn more about our mission and vision." />
               </Helmet>
               <Pricing />
+            </>
+          } />
+          <Route path="/workflow" element={
+            <>
+              <Helmet>
+                <title>DrugXpert | WorkFlow</title>
+                <meta name="description" content="Learn more about our research Workflow." />
+              </Helmet>
+              <Workflow/>
             </>
           } />
           <Route path="/about" element={

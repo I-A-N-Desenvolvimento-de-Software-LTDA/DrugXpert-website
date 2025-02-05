@@ -15,7 +15,7 @@ import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
   { label: "Features", href: "/features" },
-  { label: "Workflow", href: "#" },
+  { label: "Workflow", href: "workflow" },
   { label: "Documentation", href: "https://docs.drugxpert.net/" },
   { label: "Pricing", href: "/pricing" },
   { label: "Blog", href: "https://blog.drugxpert.net/" },
