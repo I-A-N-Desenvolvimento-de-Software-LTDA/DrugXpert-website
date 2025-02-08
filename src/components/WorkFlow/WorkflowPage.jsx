@@ -1,5 +1,6 @@
 import { CheckCircle2 } from "lucide-react";
 import codeImg from "/assets/code3.png";
+import codeImg2 from "/assets/code2.png";
 import { checklistItems } from "../../constants";
 
 const Workflow = () => {
@@ -45,7 +46,7 @@ const Workflow = () => {
           ))}
         </div>
         <div className="p-2 w-full lg:w-1/2">
-          <img src={codeImg} alt="Coding" />
+          <img src={codeImg2} alt="Coding" />
         </div>
       </div>
       {/* Duplicated Section 2 */}
