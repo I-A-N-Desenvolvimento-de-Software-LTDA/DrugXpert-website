@@ -403,3 +403,284 @@ export const companyLinks = [
   { href: "#", text: "Cookie Policy" },
   { href: "#", text: "Acceptable Use Policy" },
 ];
+
+export const timelineItems = [
+  {
+    quarter: 'Q1 2024',
+    phase: 'Phase 1',
+    title: 'Planning',
+    icon: '📌',
+    items: ['Architecture', 'MVP']
+  },
+  {
+    quarter: 'Q2 2024',
+    phase: 'Phase 2',
+    title: 'Infrastructure',
+    icon: '🚀',
+    items: ['API', 'Database']
+  },
+  {
+    quarter: 'Q3 2024',
+    phase: 'Phase 3',
+    title: 'Community',
+    icon: '💬',
+    items: ['Forum', 'Integration']
+  },
+  {
+    quarter: 'Q4 2024',
+    phase: 'Phase 4',
+    title: 'AI & Chatbot',
+    icon: '🧠',
+    items: ['Virtual Assistant', 'Machine Learning']
+  },
+  {
+    quarter: 'Q1 2025',
+    phase: 'Phase 5',
+    title: 'Mobile App',
+    icon: '📱',
+    items: ['Design', 'Development']
+  },
+  {
+    quarter: 'Q2 2025',
+    phase: 'Phase 6',
+    title: 'Launch',
+    icon: '📢',
+    items: ['Release Notes', 'Updates']
+  }
+];
+
+export const detailedRoadmapItems = [
+  {
+    phase: "Phase 1",
+    title: "Planning and Architecture",
+    duration: "1-2 months",
+    icon: "📌",
+    items: [
+      {
+        title: "Analyze current version weaknesses",
+        subItems: [
+          "Define new architecture and technologies",
+          "Choose framework and structure for backend and frontend",
+          "Define database and scalability strategies",
+          "Structure authentication and security"
+        ]
+      },
+      {
+        title: "Create MVP before complete migration",
+        subItems: ["Prototype essential features"]
+      }
+    ]
+  },
+  {
+    phase: "Phase 2",
+    title: "Infrastructure and API",
+    duration: "2-3 months",
+    icon: "🚀",
+    items: [
+      {
+        title: "Create API",
+        subItems: [
+          "Define exposed data and functionalities",
+          "Choose architecture (REST or GraphQL)",
+          "Implement authentication and rate limiting",
+          "Create documentation for easy use"
+        ]
+      },
+      {
+        title: "",
+        subItems: [
+          "Integrate platform login with other features",
+          "Configure database (MongoDB) and optimize queries"
+        ]
+      }
+    ]
+  },
+  {
+    phase: "Phase 3",
+    title: "Forum and Community",
+    duration: "2 months",
+    icon: "💬",
+    items: [
+      {
+        title: "",
+        subItems: [
+          "Create platform forum",
+          "Choose technology (Discourse, NodeBB, custom)",
+          "Integrate with platform login",
+          "Configure categories, permissions and moderation",
+          "Test and validate with initial users"
+        ]
+      }
+    ]
+  },
+  {
+    phase: "Phase 4",
+    title: "AI and Chatbot",
+    duration: "3 months",
+    icon: "🧠",
+    items: [
+      {
+        title: "Start AI development",
+        subItems: [
+          "Define objectives (data analysis, virtual assistant)",
+          "Choose frameworks and models (TensorFlow, PyTorch, OpenAI)",
+          "Create initial prototype and test with small datasets"
+        ]
+      },
+      {
+        title: "Create or configure AI chatbot for DrugXpert",
+        subItems: [
+          "Choose service (COZE, Dialogflow, Rasa, GPT)",
+          "Train with FAQs and use cases",
+          "Integrate with platform and test with users"
+        ]
+      }
+    ]
+  },
+  {
+    phase: "Phase 5",
+    title: "Mobile Application",
+    duration: "4 months",
+    icon: "📱",
+    items: [
+      {
+        title: "Create mobile app design",
+        subItems: [
+          "Define essential features",
+          "Create wireframes and prototypes (Figma, Adobe XD)",
+          "Validate with users before development"
+        ]
+      },
+      {
+        title: "Configure mobile application",
+        subItems: [
+          "Choose technology (React Native, Flutter, Swift/Kotlin)",
+          "Develop MVP for initial tests",
+          "Publish on stores (Google Play and App Store)"
+        ]
+      }
+    ]
+  },
+  {
+    phase: "Phase 6",
+    title: "Communication and Continuous Launch",
+    duration: "Continuous",
+    icon: "📢",
+    items: [
+      {
+        title: "",
+        subItems: [
+          "Create release notes page",
+          "Define standard format for updates",
+          "Integrate page with DrugXpert website",
+          "Regular updates with improvements"
+        ]
+      }
+    ]
+  }
+];
+
+export const versionHistory = [
+  {
+    version: "1.0.0",
+    date: "January 2024",
+    icon: "/assets/release-notes/update.png",
+    status: {
+      text: "✨ Stable version available for all users",
+      bgColor: "bg-green-50",
+      textColor: "text-green-700"
+    },
+    features: [
+      {
+        title: "Initial DrugXpert Release",
+      },
+      {
+        title: "Medication Search System",
+        subItems: [
+          "Search by commercial name and active ingredient",
+          "Advanced category filters",
+          "Automatic search suggestions"
+        ]
+      },
+      {
+        title: "Responsive interface with new design",
+        subItems: [
+          "Support for all devices",
+          "Dark mode implemented"
+        ]
+      },
+      {
+        title: "Initial database with over 10,000 medications",
+      }
+    ]
+  },
+  {
+    version: "0.9.0",
+    type: "(Beta)",
+    date: "December 2023",
+    icon: "/assets/release-notes/config.png",
+    status: {
+      text: "🔒 Closed Beta - Limited access to testers",
+      bgColor: "bg-yellow-50",
+      textColor: "text-yellow-700"
+    },
+    features: [
+      {
+        title: "Advanced System Settings",
+        subItems: [
+          "Interface customization",
+          "Notification preferences",
+          "Privacy settings"
+        ]
+      },
+      {
+        title: "Initial Search System Implementation",
+        subItems: [
+          "Performance optimization",
+          "Results caching"
+        ]
+      },
+      {
+        title: "Fixed 15+ bugs reported by testers"
+      },
+      {
+        title: "Significant performance improvements"
+      }
+    ]
+  },
+  {
+    version: "0.8.0",
+    type: "(Alpha)",
+    date: "October 2023",
+    icon: "/assets/release-notes/security.png",
+    status: {
+      text: "🔒 Internal Alpha - Development only",
+      bgColor: "bg-red-50",
+      textColor: "text-red-700"
+    },
+    features: [
+      {
+        title: "Initial Security Implementation",
+        subItems: [
+          "Two-factor authentication",
+          "Sensitive data encryption",
+          "CSRF attack protection"
+        ]
+      },
+      {
+        title: "Basic Interface Implementation",
+        subItems: [
+          "Main UI components",
+          "Basic routing system"
+        ]
+      },
+      {
+        title: "First Integration Tests",
+        subItems: [
+          "Automated testing",
+          "Error monitoring"
+        ]
+      }
+    ]
+  }
+];
