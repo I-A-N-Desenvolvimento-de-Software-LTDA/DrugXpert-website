@@ -22,6 +22,7 @@ import Features from './pages/Features';
 import Partners from './pages/Partners';
 import Devices from './pages/Devices';
 import Blog from './pages/Blog';
+import ReleaseNotes from './pages/ReleaseNotes';
 
 
 const App = () => {
@@ -130,6 +131,15 @@ const App = () => {
                 <meta name="description" content="Check out our supported devices." />
               </Helmet>
               <Devices/>
+            </>
+          } />
+          <Route path="/release-notes" element={
+            <>
+              <Helmet>
+                <title>DrugXpert | Release Notes</title>
+                <meta name="description" content="Check out our supported devices." />
+              </Helmet>
+              <ReleaseNotes/>
             </>
           } />
           <Route path="/blog" element={

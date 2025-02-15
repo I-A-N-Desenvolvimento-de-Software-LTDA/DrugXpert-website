@@ -383,7 +383,7 @@ export const platformLinks = [
   { href: "/supported-devices", text: "Supported Devices" },
   { href: "#", text: "System Requirements" },
   { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "release-notes", text: "Release Notes" },
 ];
 
 export const communityLinks = [
