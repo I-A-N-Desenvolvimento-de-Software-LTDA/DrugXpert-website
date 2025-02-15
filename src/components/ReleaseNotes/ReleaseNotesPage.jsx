@@ -10,15 +10,15 @@ const ReleaseNotesPage = () => {
         <h2 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6">Versão 1.0.0 - Janeiro 2024</h2>
         <div className="flex flex-col md:flex-row gap-4 sm:gap-8 items-start">
           <img 
-            src="/images/release-1.0.png" 
+            src="/assets/release-notes/update.png" 
             alt="Version 1.0 features" 
-            className="w-full md:w-1/2 lg:max-w-md rounded-lg"
+            className="w-[100px] h-[100px] object-cover rounded-lg"
           />
           <ul className="list-disc pl-4 space-y-2 w-full md:w-1/2">
             <li>Lançamento inicial do DrugXpert</li>
             <li>Sistema de busca de medicamentos</li>
             <li>Interface responsiva</li>
-            <li>Base de dados inicial</li>
+            <li>Base de dados inicial</li>    
           </ul>
         </div>
       </section>
@@ -28,9 +28,9 @@ const ReleaseNotesPage = () => {
         <h2 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6">Versão 0.9.0 (Beta) - Dezembro 2023</h2>
         <div className="flex flex-col md:flex-row gap-4 sm:gap-8 items-start">
           <img 
-            src="/images/release-0.9.png" 
-            alt="Version 0.9 features" 
-            className="w-full md:w-1/2 lg:max-w-md rounded-lg"
+            src="/assets/release-notes/config.png" 
+            alt="Version 1.0 features" 
+            className="w-[100px] h-[100px] object-cover rounded-lg"
           />
           <div className="w-full md:w-1/2">
             <ul className="list-disc pl-4 space-y-2">
@@ -51,9 +51,9 @@ const ReleaseNotesPage = () => {
         <h2 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6">Versão 0.8.0 (Alpha) - Outubro 2023</h2>
         <div className="flex flex-col md:flex-row gap-4 sm:gap-8 items-start">
           <img 
-            src="/images/release-0.8.png" 
-            alt="Version 0.8 features" 
-            className="w-full md:w-1/2 lg:max-w-md rounded-lg"
+           src="/assets/release-notes/security.png" 
+           alt="Version 1.0 features" 
+           className="w-[100px] h-[100px] object-cover rounded-lg"
           />
           <div className="w-full md:w-1/2">
             <ul className="list-disc pl-4 space-y-2">
