@@ -63,7 +63,7 @@ const ReleaseNotesPage = () => {
               <li>Base de dados preliminar</li>
             </ul>
             <div className="mt-4 p-4 bg-red-50 rounded-lg">
-              <p className="text-sm text-red-800">Alpha interno - Apenas para desenvolvimento</p>
+              <p className="text-sm text-red-700">Alpha interno - Apenas para desenvolvimento</p>
             </div>
           </div>
         </div>
