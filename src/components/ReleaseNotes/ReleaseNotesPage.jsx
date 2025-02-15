@@ -40,7 +40,7 @@ const ReleaseNotesPage = () => {
               <li>Melhorias de performance</li>
             </ul>
             <div className="mt-4 p-4 bg-yellow-50 rounded-lg">
-              <p className="text-sm text-yellow-800">Beta fechado - Acesso limitado</p>
+              <p className="text-sm text-yellow-700">Beta fechado - Acesso limitado</p>
             </div>
           </div>
         </div>
