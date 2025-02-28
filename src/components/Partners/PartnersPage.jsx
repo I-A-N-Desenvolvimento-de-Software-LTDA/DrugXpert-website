@@ -2,30 +2,30 @@ import { PartnersIndex } from "../../constants";
 
 const PartnersPage = () => {
   return (
-    <div className="relative mt-20 px-4 sm:px-6 lg:px-8 bg-gray-100">
+    <div className="relative mt-20 px-4 sm:px-6 lg:px-8">
       <div className="text-center mb-10">
         <span className="bg-neutral-900 text-[#91c982] rounded-md h-6 text-lg sm:text-xl font-semibold px-4 py-1 uppercase tracking-wider shadow-lg">
-          Partners
+          Partners 🤝
         </span>
         <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-8 sm:mt-12 lg:mt-16 font-extrabold tracking-wide text-gray-800">
           Partners in Healthcare and Life{" "}
           <span className="bg-gradient-to-r from-[#5c8d2f] to-[#215153] text-transparent bg-clip-text">
-            Sciences
+            Sciences 🌟
           </span>
         </h2>
         <p className="mt-4 text-lg text-neutral-600 max-w-2xl mx-auto">
-          Discover DrugXpert Partners Accelerating the Digital Transformation of Healthcare
+          Discover DrugXpert Partners Accelerating the Digital Transformation of Healthcare 🚀
         </p>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-6 mt-12 lg:mt-20">
+      <div className="flex flex-wrap justify-center gap-8 mt-12 lg:mt-20">
         {PartnersIndex.map((partner, index) => (
           <a
             key={index}
-            href={partner.link || "#"} // Adiciona o link ou "#" se não houver um link especificado
-            target="_blank" // Abre em uma nova aba
+            href={partner.link || "#"}
+            target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-4 bg-white rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl"
+            className="flex flex-col w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-5 bg-white rounded-xl shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl border border-neutral-200"
           >
             <div className="w-full mb-4">
               <img
