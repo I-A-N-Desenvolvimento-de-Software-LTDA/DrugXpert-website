@@ -178,7 +178,7 @@ const FullSubscribe = () => {
           <p className="text-lg font-semibold mb-6">🔗 Ready to enhance your research capabilities? Choose your plan now!</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="https://app.drugxpert.net/auth-page/signup" 
-              className="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-[#5c8d2f] to-[#215153] rounded-lg hover:opacity-90 transition-opacity">
+              className="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-[#5c8d2f] to-[#215153] rounded-lg hover:opacity-90 transition-opacity text-white">
               Get Started <ExternalLink size={16} className="ml-2" />
             </a>
             <a href="mailto:sales@drugxpert.net" 
