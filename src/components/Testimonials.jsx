@@ -1,5 +1,6 @@
 import { userTestimonials, partnerTestimonials } from "../constants";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Testimonials = () => {
   const [activeTab, setActiveTab] = useState("user"); // "user" or "partner"
@@ -20,6 +21,16 @@ const Testimonials = () => {
       ))}
     </div>
   );
+
+  const getButtonText = () => {
+    return activeTab === "user" ? "Sign Up as a User" : "Partner with Us";
+  };
+
+  const getLinkUrl = () => {
+    return activeTab === "user" 
+      ? "https://app.drugxpert.net/auth-page/signup" 
+      : "https://app.drugxpert.net/auth-page/partner";
+  };
 
   return (
     <div className="mt-20 tracking-wide">
@@ -58,10 +69,16 @@ const Testimonials = () => {
       {activeTab === "partner" && renderTestimonials(partnerTestimonials)}
 
       <div className="text-center mt-8 mb-12">
-        <p className="text-lg font-medium">Want to be part of this revolution in science? Try our platform today! 🚀</p>
-        <button className="mt-4 px-6 py-3 bg-gradient-to-r from-[#5c8d2f] to-[#215153] text-white rounded-md hover:opacity-90 transition-opacity">
-          Get Started
-        </button>
+        <p className="text-lg font-medium">
+          {activeTab === "user" 
+            ? "Want to be part of this revolution in science? Try our platform today! 🚀" 
+            : "Interested in partnering with us? Join our growing network of partners! 🤝"}
+        </p>
+        <Link to={getLinkUrl()}>
+          <button className="mt-4 px-6 py-3 bg-gradient-to-r from-[#5c8d2f] to-[#215153] text-white rounded-md hover:opacity-90 transition-opacity">
+            {getButtonText()}
+          </button>
+        </Link>
       </div>
     </div>
   );
