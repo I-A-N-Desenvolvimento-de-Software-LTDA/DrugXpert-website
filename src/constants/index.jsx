@@ -60,6 +60,84 @@ export const testimonials = [
   },
 ];
 
+export const userTestimonials = [
+  {
+    title: "Accelerating Scientific Discoveries! ⚡️",
+    text: "We have always faced challenges in analyzing new substances, but since we started using this AI, our productivity has skyrocketed. With detailed insights and accurate simulations, we have managed to reduce research time by up to 40%!",
+    user: "Dr. Lucas Menezes",
+    position: "Biotechnology Researcher 🧪"
+  },
+  {
+    title: "A Revolution for Students and Laboratories 🎓🧬",
+    text: "As a Pharmacy student, I needed a reliable tool to explore chemical interactions and mechanisms of action for new molecules. The AI platform provided me with quick and precise answers, transforming the way I study and develop my projects.",
+    user: "Carla Antunes",
+    position: "Pharmacy Student 💊"
+  },
+  {
+    title: "Testing and Simulations in Record Time ⏳🧑‍🔬",
+    text: "Our laboratory has always struggled with lengthy validation processes for new substances. With this AI, we optimized preclinical tests and predicted adverse effects much more efficiently. A game-changer for the pharmaceutical industry!",
+    user: "Dr. Henrique Vasconcellos",
+    position: "R&D Director at a BioTech 🏥"
+  },
+  {
+    title: "Safety and Precision for New Discoveries 🔍✅",
+    text: "The complexity of scientific research requires advanced tools, and this AI exceeded our expectations. We were able to explore new treatment possibilities with greater safety and precision, reducing risks and increasing innovation.",
+    user: "Dr. Beatriz Oliveira",
+    position: "Clinical Research Specialist 🏆"
+  },
+  {
+    title: "Artificial Intelligence Transforming Medicine 🏥🤖",
+    text: "Working with innovation requires cutting-edge tools. With this AI, we identified new therapeutic combinations with high precision, accelerating our drug development processes.",
+    user: "Dr. Fernando Ribeiro",
+    position: "Translational Medicine Researcher 💉"
+  },
+  {
+    title: "Essential Support for New Research 📚🔬",
+    text: "The platform has become a key component in my PhD research. Automated data analysis and predictive models allowed me to focus on the strategic part of my research, saving months of manual work.",
+    user: "Mariana Costa",
+    position: "PhD Candidate in Biomedical Sciences 🎓"
+  }
+];
+
+export const partnerTestimonials = [
+  {
+    title: "Optimizing Drug Development Pipelines 🚀",
+    text: "Integrating this AI into our workflow has significantly improved our efficiency in screening and developing new drugs. The predictive models have saved us both time and resources.",
+    user: "Emma Collins",
+    position: "CEO, PharmaGenix 🏥"
+  },
+  {
+    title: "Transforming Biotechnology Research 🔬",
+    text: "With this AI, our biotech company has accelerated molecular simulations and compound analysis, allowing us to make data-driven decisions faster than ever before.",
+    user: "Dr. Robert Hayes",
+    position: "Lead Scientist, BioInnovate 🧪"
+  },
+  {
+    title: "Enhancing Safety in Clinical Trials ✅",
+    text: "Ensuring patient safety is our top priority. The AI's advanced risk assessment tools have helped us mitigate potential adverse effects early in the process.",
+    user: "Sophia Martinez",
+    position: "Clinical Trials Director, MedSafe 🌍"
+  },
+  {
+    title: "Data-Driven Innovation for the Pharmaceutical Industry 📊",
+    text: "The AI-powered insights have given us a competitive edge in pharmaceutical R&D, providing deep analysis and optimization strategies for drug formulations.",
+    user: "James Carter",
+    position: "Head of Research, NovaPharm 💊"
+  },
+  {
+    title: "Cutting-Edge AI for Vaccine Research 💉",
+    text: "The AI-driven analysis tools have played a critical role in optimizing our vaccine development process, helping us bring innovative solutions to market faster.",
+    user: "Dr. Olivia Bennett",
+    position: "Chief Scientist, VaxTech 🌡️"
+  },
+  {
+    title: "Streamlining Laboratory Workflows 🔄",
+    text: "Our lab has benefited immensely from the automation and predictive modeling capabilities of this AI, making experiments more efficient and cost-effective.",
+    user: "Daniel Foster",
+    position: "Laboratory Manager, GenTech Labs 🏗️"
+  }
+];
+
 export const featuresPage = [
   {
     image: '/assets/drag-and-drop.jpg',
