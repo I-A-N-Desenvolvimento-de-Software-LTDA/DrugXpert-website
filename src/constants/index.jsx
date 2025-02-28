@@ -204,54 +204,129 @@ export const subscribeOptions = [
   {
     title: "Free",
     price: "$0",
+    emoji: "🆓",
+    perfectFor: ["Students", "Research beginners", "Individual projects", "Academic exploration"],
     features: [
-      "Private Research",
-      "1 Gb of Research Storage",
-      "Analytics Dashboard",
-      "10 API Calls",
-      "Normal Support", 
+      "Private Research Dashboard",
+      "1 GB of research storage",
+      "Basic Analytics Dashboard",
+      "10 API calls/month",
+      "Standard support (email)",
+      "Group creation (up to 3 groups)",
+      "Multi-platform compatibility",
+      "Basic data visualization",
+      "Monthly research reports",
+      "Community access",
+      "Basic search functionality"
     ],
     notOn: [
-      "Creating groups",
-      "Multi-Platform Compatibility",
+      "Advanced Analytics Dashboard",
+      "Priority email support",
+      "Event discounts",
+      "Priority event registration",
+      "Custom report generation"
     ],
   },
   {
     title: "Pro",
     price: "$10",
+    emoji: "🌟",
+    perfectFor: ["Professional researchers", "Small research teams", "Pharmaceutical consultants", "Academic departments"],
     features: [
-      "Private Research",
-      "5 Gb of Research Storage",
-      "Analytics Dashboard (Advance)",
-      "50 API Calls",
-      "Dedicated Support",
-      "Creating groups",
-      "Multi-Platform Compatibility",  
+      "5 GB of research storage",
+      "Advanced Analytics Dashboard",
+      "50 API calls/month",
+      "Priority email support",
+      "Event discounts (up to 30% off)",
+      "Priority event registration",
+      "Advanced data visualization",
+      "Custom report generation",
+      "Research collaboration tools",
+      "Advanced search filters",
+      "Export data in multiple formats",
+      "Integration with common research tools",
+      "Automated backup system",
+      "Research timeline tracking"
     ],
     notOn: [
-      "Event discounts",
-      "Priority purchasing for events",
+      "Unlimited research storage",
+      "24/7 priority support",
+      "Unlimited private groups",
+      "Custom API integration",
+      "Dedicated account manager"
     ],
   },
   {
     title: "Enterprise",
     price: "$30",
+    emoji: "🚀",
+    perfectFor: ["Large organizations", "Research institutions", "Pharmaceutical companies", "Clinical research teams"],
     features: [
-      "Private Research",
-      "Unlimited of Research Storage",
-      "High Performance Network",
-      "100 API Calls",
-      "24/7 Support",
-      "Creating private groups",
-      "Multi-Platform Compatibility",
-      "Event discounts",
-      "Priority purchasing for events",
-      "Access to exclusive Groups",
+      "Unlimited research storage",
+      "High-performance dedicated servers",
+      "100 API calls/month",
+      "24/7 priority support",
+      "Unlimited private groups",
+      "Access to exclusive research networks",
+      "Custom API integration",
+      "Advanced security features",
+      "Dedicated account manager",
+      "Custom analytics solutions",
+      "Team management tools",
+      "Compliance reporting",
+      "Audit logs",
+      "Priority feature updates",
+      "Custom training sessions",
+      "Enterprise-grade encryption"
     ],
-    notOn: [
-      
-    ],
+    notOn: [],
   },
+];
+
+export const paymentMethods = [
+  "Major credit cards (Visa, Mastercard, American Express)",
+  "Pix instant payment",
+  "Bank slip (Boleto)",
+  "Digital wallets (PayPal, Google Pay, Apple Pay)"
+];
+
+export const securityFeatures = [
+  "SSL encrypted transactions",
+  "GDPR compliant",
+  "HIPAA compliant",
+  "Regular security audits",
+  "Data backup guarantee"
+];
+
+export const planComparison = [
+  { feature: "Storage", free: "1 GB", pro: "5 GB", enterprise: "Unlimited" },
+  { feature: "API Calls", free: "10/month", pro: "50/month", enterprise: "100/month" },
+  { feature: "Support", free: "Standard", pro: "Priority", enterprise: "24/7" },
+  { feature: "Analytics", free: "Basic", pro: "Advanced", enterprise: "Custom" },
+  { feature: "Groups", free: "Up to 3", pro: "Up to 10", enterprise: "Unlimited" }
+];
+
+export const subscriptionFAQs = [
+  {
+    question: "Can I upgrade or downgrade my plan?",
+    answer: "Yes, you can change your plan at any time. Changes take effect on your next billing cycle."
+  },
+  {
+    question: "Is there a contract commitment?",
+    answer: "No, all plans are month-to-month with no long-term commitment required."
+  },
+  {
+    question: "Do you offer refunds?",
+    answer: "Yes, we offer a 30-day money-back guarantee for paid plans."
+  }
+];
+
+export const enterpriseSolutions = [
+  "Custom feature development",
+  "Dedicated hosting options",
+  "Volume licensing",
+  "Custom API limits",
+  "Specialized training programs"
 ];
 
 export const PartnersIndex = [
