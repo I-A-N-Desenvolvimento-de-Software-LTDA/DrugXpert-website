@@ -17,7 +17,7 @@ const PartnersSection = () => {
 
       <div className="grid grid-cols-3 gap-4 sm:flex sm:flex-row sm:justify-center sm:items-center sm:gap-10">
         <div className="flex flex-col items-center">
-          <a href="https://drugxpert.net/partners" target="_blank" rel="noopener noreferrer">
+          <a href="/partners"  rel="noopener noreferrer">
             <img
               src={Chembl}
               alt="Parceiro Chembl"
@@ -26,7 +26,7 @@ const PartnersSection = () => {
           </a>
         </div>
         <div className="flex flex-col items-center">
-          <a href="https://drugxpert.net/partners" target="_blank" rel="noopener noreferrer">
+          <a href="/partners"  rel="noopener noreferrer">
             <img
               src={NCI}
               alt="Parceiro NCI"
@@ -35,7 +35,7 @@ const PartnersSection = () => {
           </a>
         </div>
         <div className="flex flex-col items-center">
-          <a href="https://drugxpert.net/partners" target="_blank" rel="noopener noreferrer">
+          <a href="/partners"  rel="noopener noreferrer">
             <img
               src={EPA}
               alt="Parceiro EPA"
@@ -44,7 +44,7 @@ const PartnersSection = () => {
           </a>
         </div>
         <div className="flex flex-col items-center">
-          <a href="https://drugxpert.net/partners" target="_blank" rel="noopener noreferrer">
+          <a href="/partners"  rel="noopener noreferrer">
             <img
               src={HumanMicrobiome}
               alt="Parceiro Human Microbiome"
@@ -53,7 +53,7 @@ const PartnersSection = () => {
           </a>
         </div>
         <div className="flex flex-col items-center">
-          <a href="https://drugxpert.net/partners" target="_blank" rel="noopener noreferrer">
+          <a href="/partners"  rel="noopener noreferrer">
             <img
               src={Nvidia}
               alt="Parceiro Nvidia"
@@ -62,7 +62,7 @@ const PartnersSection = () => {
           </a>
         </div>
         <div className="flex flex-col items-center">
-          <a href="https://drugxpert.net/partners" target="_blank" rel="noopener noreferrer">
+          <a href="/partners"  rel="noopener noreferrer">
             <img
               src={PSI}
               alt="Parceiro PSI"
@@ -71,7 +71,7 @@ const PartnersSection = () => {
           </a>
         </div>
         <div className="flex flex-col items-center">
-          <a href="https://drugxpert.net/partners" target="_blank" rel="noopener noreferrer">
+          <a href="/partners"  rel="noopener noreferrer">
             <img
               src={FDA}
               alt="Parceiro FDA"
@@ -80,7 +80,7 @@ const PartnersSection = () => {
           </a>
         </div>
         <div className="flex flex-col items-center">
-          <a href="https://drugxpert.net/partners" target="_blank" rel="noopener noreferrer">
+          <a href="/partners"  rel="noopener noreferrer">
             <img
               src={NIH}
               alt="Parceiro NIH"
@@ -89,7 +89,7 @@ const PartnersSection = () => {
           </a>
         </div>
         <div className="flex flex-col items-center">
-          <a href="https://drugxpert.net/partners" target="_blank" rel="noopener noreferrer">
+          <a href="/partners"  rel="noopener noreferrer">
             <img
               src={Pubchem}
               alt="Parceiro Pubchem"
