@@ -1,4 +1,3 @@
-
 {
   "name": "virtualr",
   "private": true,
@@ -12,6 +11,7 @@
   },
   "dependencies": {
     "firebase": "^10.13.2",
+    "framer-motion": "^12.4.9",
     "lucide-react": "^0.454.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

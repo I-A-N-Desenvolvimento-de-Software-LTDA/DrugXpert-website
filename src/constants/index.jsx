@@ -504,23 +504,24 @@ export const articles = [
     link: 'https://blog.drugxpert.net/'
   },
   {
-    title: 'Attention, Spoiled Software Engineers: Take a Lesson from Google’s Programming Language',
+    title: 'Attention, Spoiled Software Engineers: Take a Lesson from Google\'s Programming Language',
     image: '/assets/articles/Go Faux.png',
     description: 'The language Go hails from an era when programmers had smaller egos and fewer commercial ambitions. My generation of strivers has a lot to learn.',
     link: 'https://blog.drugxpert.net/'
   },
   {
     title: 'Meta says this is the make or break year for the metaverse',
-    image: 'public/assets/articles/QuestHermano2.png',
-    description: '  Meta CTO Andrew Bosworth is giving the metaverse a year to become a hit, according to an internal forum post reported by Business Insider. That time period will determine whether Reality Labs’ mixed reality efforts are “the work of visionaries or a legendary misadventure,” he writes.  ',
+    image: '/assets/articles/QuestHermano2.png',
+    description: 'Meta CTO Andrew Bosworth is giving the metaverse a year to become a hit, according to an internal forum post reported by Business Insider. That time period will determine whether Reality Labs\' mixed reality efforts are "the work of visionaries or a legendary misadventure," he writes.',
+    link: 'https://blog.drugxpert.net/'
+  },
+  {
     title: 'Pharmaceutical Industry Focuses on Personalized Medicine',
-    image: 'public/assets/articles/via.placeholder.png',
+    image: '/assets/articles/via.placeholder.png',
     description: 'The pharmaceutical industry is shifting towards personalized medicine, tailoring treatments to individual patients based on their genetic makeup. This shift is expected to improve treatment outcomes and reduce adverse drug reactions.',
     link: 'https://blog.drugxpert.net/'
   },
 ];
-
-
 
 export const resourcesLinks = [
   { href: "https://app.drugxpert.net/auth-page/signup", text: "Getting Started" },
