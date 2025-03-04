@@ -409,7 +409,7 @@ export const enterpriseSolutions = [
 
 export const PartnersIndex = [
   {
-    image: '/assets/Partners/partnersPage/chEMBL.png',
+    image: '/assets/Partners/PartnersPage/chEMBL.png',
     link: "https://www.ebi.ac.uk/chembl/",
     text: "ChEMBL",
     description:
@@ -417,7 +417,7 @@ export const PartnersIndex = [
     category: "Research Database"
   },
   {
-    image: '/assets/Partners/partnersPage/NCI.png',
+    image: '/assets/Partners/PartnersPage/NCI.png',
     link: "https://www.nih.gov/about-nih/what-we-do/nih-almanac/national-cancer-institute-nci",
     text: "NIH National Cancer Institute",
     description:
@@ -425,7 +425,7 @@ export const PartnersIndex = [
     category: "Research Institute"
   },
   {
-    image: '/assets/Partners/partnersPage/EPA.png',
+    image: '/assets/Partners/PartnersPage/EPA.png',
     link: "https://www.epa.gov/",
     text: "U.S. Environmental Protection Agency",
     description:
@@ -433,7 +433,7 @@ export const PartnersIndex = [
    category: "Government Agency"
   },
   {
-    image: '/assets/Partners/partnersPage/HMP.png',
+    image: '/assets/Partners/PartnersPage/HMP.png',
     link: "https://hmpdacc.org/hmp/",
     text: "Human Microbiome Project",
     description:
@@ -441,7 +441,7 @@ export const PartnersIndex = [
     category: "Research Initiative"
   },
   {
-    image: '/assets/Partners/partnersPage/NVIDIA.png',
+    image: '/assets/Partners/PartnersPage/NVIDIA.png',
     link: "https://www.nvidia.com/en-us/industries/healthcare-life-sciences/",
     text: "Nvidia Corporation",
     description:
@@ -449,7 +449,7 @@ export const PartnersIndex = [
     category: "Technology"
   },
   {
-    image: '/assets/Partners/partnersPage/PSI.png',
+    image: '/assets/Partners/PartnersPage/PSI.png',
     link: "https://pubmed.ncbi.nlm.nih.gov/19010965/",
     text: "Protein Structure Initiative",
     description:
@@ -457,7 +457,7 @@ export const PartnersIndex = [
     category: "Research Initiative"
   },
   {
-    image: '/assets/Partners/partnersPage/FDA.png',
+    image: '/assets/Partners/PartnersPage/FDA.png',
     link: "https://www.fda.gov/",
     text: "Food and Drug Administration",
     description:
@@ -465,7 +465,7 @@ export const PartnersIndex = [
     category: "Government Agency"
   },
   {
-    image: '/assets/Partners/partnersPage/NIMH.png',
+    image: '/assets/Partners/PartnersPage/NIMH.png',
     link: "https://www.nimh.nih.gov/",
     text: "National Institute of Mental Health",
     description:
@@ -473,7 +473,7 @@ export const PartnersIndex = [
     category: "Research Institute"
   },
   {
-    image: '/assets/Partners/partnersPage/PUBCHEM.png',
+    image: '/assets/Partners/PartnersPage/PUBCHEM.png',
     link: "https://pubchem.ncbi.nlm.nih.gov/",
     text: "PubChem",
     description:
