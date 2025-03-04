@@ -17,67 +17,85 @@ const PartnersSection = () => {
 
       <div className="grid grid-cols-3 gap-4 sm:flex sm:flex-row sm:justify-center sm:items-center sm:gap-10">
         <div className="flex flex-col items-center">
-          <img
-            src={Chembl}
-            alt="Parceiro Chembl"
-            className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
-          />
+          <a href="/partners"  rel="noopener noreferrer">
+            <img
+              src={Chembl}
+              alt="Parceiro Chembl"
+              className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
+            />
+          </a>
         </div>
         <div className="flex flex-col items-center">
-          <img
-            src={NCI}
-            alt="Parceiro NCI"
-            className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
-          />
+          <a href="/partners"  rel="noopener noreferrer">
+            <img
+              src={NCI}
+              alt="Parceiro NCI"
+              className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
+            />
+          </a>
         </div>
         <div className="flex flex-col items-center">
-          <img
-            src={EPA}
-            alt="Parceiro EPA"
-            className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
-          />
+          <a href="/partners"  rel="noopener noreferrer">
+            <img
+              src={EPA}
+              alt="Parceiro EPA"
+              className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
+            />
+          </a>
         </div>
         <div className="flex flex-col items-center">
-          <img
-            src={HumanMicrobiome}
-            alt="Parceiro Chembl"
-            className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
-          />
+          <a href="/partners"  rel="noopener noreferrer">
+            <img
+              src={HumanMicrobiome}
+              alt="Parceiro Human Microbiome"
+              className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
+            />
+          </a>
         </div>
         <div className="flex flex-col items-center">
-          <img
-            src={Nvidia}
-            alt="Parceiro Nvidia"
-            className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
-          />
+          <a href="/partners"  rel="noopener noreferrer">
+            <img
+              src={Nvidia}
+              alt="Parceiro Nvidia"
+              className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
+            />
+          </a>
         </div>
         <div className="flex flex-col items-center">
-          <img
-            src={PSI}
-            alt="Parceiro Nvidia"
-            className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
-          />
+          <a href="/partners"  rel="noopener noreferrer">
+            <img
+              src={PSI}
+              alt="Parceiro PSI"
+              className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
+            />
+          </a>
         </div>
         <div className="flex flex-col items-center">
-          <img
-            src={FDA}
-            alt="Parceiro FDA"
-            className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
-          />
+          <a href="/partners"  rel="noopener noreferrer">
+            <img
+              src={FDA}
+              alt="Parceiro FDA"
+              className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
+            />
+          </a>
         </div>
         <div className="flex flex-col items-center">
-          <img
-            src={NIH}
-            alt="Parceiro NIH"
-            className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
-          />
+          <a href="/partners"  rel="noopener noreferrer">
+            <img
+              src={NIH}
+              alt="Parceiro NIH"
+              className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
+            />
+          </a>
         </div>
         <div className="flex flex-col items-center">
-          <img
-            src={Pubchem}
-            alt="Parceiro Pubchem"
-            className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
-          />
+          <a href="/partners"  rel="noopener noreferrer">
+            <img
+              src={Pubchem}
+              alt="Parceiro Pubchem"
+              className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
+            />
+          </a>
         </div>
       </div>
     </div>

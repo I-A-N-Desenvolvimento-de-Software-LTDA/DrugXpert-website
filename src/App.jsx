@@ -43,7 +43,7 @@ const App = () => {
               <PartnersSection/>
               <Subscribe/>
               <Helmet>
-                <title>DrugXpert | Blog</title>
+                <title>DrugXpert | Home</title>
                 <meta name="description" content="Latest updates and articles from DrugXpert." />
               </Helmet>
               <BlogSection/>
