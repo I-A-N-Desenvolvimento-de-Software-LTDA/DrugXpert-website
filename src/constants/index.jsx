@@ -838,3 +838,18 @@ export const versionHistory = [
     ]
   }
 ];
+
+export const heroFeatures = [
+  {
+    title: "Advanced Analytics",
+    description: "Visualize complex data and derive meaningful insights with powerful analytical tools."
+  },
+  {
+    title: "AI-Powered Research",
+    description: "Accelerate discoveries with machine learning algorithms that predict outcomes and identify patterns."
+  },
+  {
+    title: "Scientific Collaboration",
+    description: "Connect with researchers worldwide to share knowledge and advance pharmaceutical innovation."
+  }
+];

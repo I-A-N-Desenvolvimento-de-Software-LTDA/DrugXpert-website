@@ -98,11 +98,11 @@ const PartnersPage = () => {
               rel="noopener noreferrer"
               className="flex flex-col h-full p-6 bg-white rounded-xl shadow-lg transition-all duration-300 hover:shadow-2xl border border-neutral-200 overflow-hidden"
             >
-              <div className="relative w-full mb-4 overflow-hidden rounded-lg bg-gray-50 flex items-center justify-center h-64">
+              <div className="relative w-full mb-4 overflow-hidden rounded-lg bg-gray-50 aspect-video flex items-center justify-center">
                 <img
                   src={partner.image || '/assets/default-partner.png'}
                   alt={partner.text}
-                  className="object-contain w-full h-auto transition-transform duration-500 group-hover:scale-110 max-h-56"
+                  className="object-contain w-4/5 h-4/5 transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute top-0 right-0">
                   <span className="inline-block px-3 py-1 text-xs font-medium bg-[#91c982]/20 text-[#5c8d2f] rounded-bl-lg">
