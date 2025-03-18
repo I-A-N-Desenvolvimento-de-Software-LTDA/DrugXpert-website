@@ -1,4 +1,5 @@
 import { BadgeCheck, BadgeX, CreditCard, ShieldCheck, HelpCircle, Building, ExternalLink } from "lucide-react";
+import SEO from "../SEO/SEO"; // Import the SEO component
 
 import { 
   subscribeOptions, 
@@ -10,8 +11,29 @@ import {
 } from "../../constants";
 
 const FullSubscribe = () => {
+  // SEO metadata for the subscription page
+  const seoData = {
+    title: "DrugXpert Subscription Plans | Pricing Options",
+    description: "Explore DrugXpert's flexible subscription plans. Choose from Free, Pro, and Enterprise options to enhance your pharmaceutical research capabilities.",
+    keywords: [
+      "DrugXpert pricing", 
+      "pharmaceutical subscription plans", 
+      "drug research tools", 
+      "pharmaceutical software pricing", 
+      "DrugXpert pro plan", 
+      "enterprise drug research solutions"
+    ]
+  };
+
   return (
     <div className="mt-20 max-w-7xl mx-auto px-4">
+      {/* Add SEO component */}
+      <SEO 
+        title={seoData.title}
+        description={seoData.description}
+        keywords={seoData.keywords}
+      />
+      
       <div className="text-center mb-16">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-4">
           📌 Subscription Plans
