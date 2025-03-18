@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { PartnersIndex } from "../../constants";
 import { motion } from "framer-motion";
