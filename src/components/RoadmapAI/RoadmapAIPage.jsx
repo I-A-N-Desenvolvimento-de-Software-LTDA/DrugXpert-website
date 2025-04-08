@@ -71,37 +71,89 @@ const RoadmapAIPage = () => {
 
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-gray-800 sm:text-xl">📊 3. Choose Data Collection Methodologies</h2>
-          <table className="table-auto border-collapse w-full mt-6 text-gray-700 sm:text-xs sm: sm:block">
-            <thead>
-              <tr className="bg-gray-100">
-                <th className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">🛠️ Method</th>
-                <th className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">🎯 Advantage</th>
-                <th className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">🚨 Disadvantage</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr className="hover:bg-gray-50 transition">
-                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Individual interviews</td>
-                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Detailed and in-depth responses</td>
-                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Time-consuming</td>
-              </tr>
-              <tr className="hover:bg-gray-50 transition">
-                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Online questionnaires</td>
-                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Quick collection of many responses</td>
-                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">May have a low response rate</td>
-              </tr>
-              <tr className="hover:bg-gray-50 transition">
-                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Focus groups</td>
-                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Open discussion generates new insights</td>
-                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Difficult to organize</td>
-              </tr>
-              <tr className="hover:bg-gray-50 transition">
-                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Secondary data analysis</td>
-                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Use of already conducted research</td>
-                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Data may be outdated</td>
-              </tr>
-            </tbody>
-          </table>
+          <div className="overflow-x-auto">
+            <table className="table-auto border-collapse w-full mt-6 text-gray-700 sm:text-xs">
+              <thead>
+                <tr className="bg-gray-100">
+                  <th className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">🛠️ Method</th>
+                  <th className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">🎯 Advantage</th>
+                  <th className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">🚨 Disadvantage</th>
+                  <th className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">📋 Example Use Case</th>
+                  <th className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">💡 Recommended Tools</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="hover:bg-gray-50 transition bg-white">
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span title="One-on-one interviews with participants">Individual interviews</span>
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span>📝 Detailed and in-depth responses</span>
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span>⏳ Time-consuming</span>
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span>Interviewing researchers about their challenges</span>
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span>Zoom, Google Meet</span>
+                  </td>
+                </tr>
+                <tr className="hover:bg-gray-50 transition bg-gray-50">
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span title="Digital forms distributed online">Online questionnaires</span>
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span>⚡ Quick collection of many responses</span>
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span>📉 May have a low response rate</span>
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span>Gathering feedback from students</span>
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span>Google Forms, Typeform</span>
+                  </td>
+                </tr>
+                <tr className="hover:bg-gray-50 transition bg-white">
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span title="Group discussions to gather insights">Focus groups</span>
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span>💡 Open discussion generates new insights</span>
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span>📅 Difficult to organize</span>
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span>Brainstorming AI features with lab teams</span>
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span>Microsoft Teams, Miro</span>
+                  </td>
+                </tr>
+                <tr className="hover:bg-gray-50 transition bg-gray-50">
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span title="Analyzing existing research data">Secondary data analysis</span>
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span>📚 Use of already conducted research</span>
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span>📆 Data may be outdated</span>
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span>Reviewing published papers on substance discovery</span>
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">
+                    <span>PubMed, ResearchGate</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
           <p className="mt-6 text-gray-700 sm:text-sm">Suggested tools:</p>
           <ul className="list-disc list-inside mt-4 space-y-2 text-gray-700 sm:text-sm">
             <li>Google Forms or Typeform → Creating questionnaires</li>
