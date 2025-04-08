@@ -1,5 +1,6 @@
-import { featuresPage } from "../../constants";
+import { BadgeCheck } from "lucide-react";
 import SEO from "../SEO/SEO";
+import { featuresPage } from "../../constants";
 
 const FeaturesPage = () => {
   const seoData = {
@@ -9,57 +10,50 @@ const FeaturesPage = () => {
   };
 
   return (
-    <>
+    <div className="mt-20 max-w-7xl mx-auto px-4">
+      {/* Add SEO component */}
       <SEO 
         title={seoData.title}
         description={seoData.description}
         keywords={seoData.keywords}
       />
-      <div className="relative mt-20 px-4 sm:px-6 lg:px-8">
-        <div className="text-center">
-          <span className="bg-neutral-900 text-[#91c982] rounded-md h-6 text-lg sm:text-xl font-medium px-2 py-1 uppercase">
-            Features
-          </span>
-          <h2 className="text-2xl sm:text-4xl lg:text-5xl mt-6 sm:mt-10 lg:mt-20 tracking-wide">
-            Boost Productivity{" "}
-            <span className="bg-gradient-to-r from-[#5c8d2f] to-[#215153] text-transparent bg-clip-text">
-              Effortlessly
-            </span>
-          </h2>
-        </div>
-        <div className="flex flex-wrap mt-10 lg:mt-20">
-          {featuresPage.map((feature, index) => (
-            <div
-              key={index}
-              className={`flex flex-col sm:flex-row w-full sm:w-1/2 lg:w-full lg:items-center ${
-                index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
-              }`}
-            >
-              <div className="w-full sm:w-1/2 p-4">
-                <img
-                  src={feature.image || 'default-image.png'}
-                  alt={feature.text}
-                  className="w-full h-auto rounded-md"
-                />
-              </div>
-              <div className="w-full sm:w-1/2 p-4">
-                <div className="flex items-center">
-                  <div className="flex mx-4 h-12 w-12 sm:h-16 sm:w-16 p-2 bg-neutral-900 text-[#5c8d2f] justify-center items-center rounded-full">
-                    {feature.icon}
-                  </div>
-                  <h5 className="mt-1 mb-4 sm:mb-6 text-lg sm:text-xl">
-                    {feature.text}
-                  </h5>
-                </div>
-                <p className="text-sm sm:text-md p-2 mb-10 sm:mb-20 mt-5 text-neutral-500">
-                  {feature.description}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
+
+      <div className="text-center mb-16">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-4 text-gradient ">
+          🚀 Features That Shine
+        </h1>
+        <p className="text-lg text-neutral-700 max-w-3xl mx-auto leading-relaxed">
+          Discover how <strong>DrugXpert</strong> can enhance your pharmaceutical management with cutting-edge features designed to boost productivity effortlessly. 🌟
+        </p>
       </div>
-    </>
+
+      <div className="space-y-12">
+        {featuresPage.map((feature, index) => (
+          <div key={index} className={`flex flex-col lg:flex-row ${index % 2 === 0 ? '' : 'lg:flex-row-reverse'} items-center gap-8 bg-white shadow-lg rounded-lg p-6`}>            
+            <div className="lg:w-1/2">
+              <img
+                src={feature.image || 'default-image.png'}
+                alt={feature.text}
+                className="w-full h-auto rounded-md shadow-md hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="lg:w-1/2">
+              <div className="mb-4">
+                <div className="flex items-center gap-2">
+                  <div className="text-4xl text-green-500">{feature.icon || '✨'}</div>
+                  <p className="text-4xl font-semibold text-gray-800">
+                    {feature.text} 
+                  </p>
+                </div>
+              </div>
+              <p className="text-neutral-700 leading-relaxed">
+                {feature.description} 💡
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 };
 

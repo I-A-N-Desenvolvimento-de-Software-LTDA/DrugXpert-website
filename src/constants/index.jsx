@@ -526,6 +526,7 @@ export const articles = [
 export const resourcesLinks = [
   { href: "https://app.drugxpert.net/auth-page/signup", text: "Getting Started" },
   { href: "https://docs.drugxpert.net/", text: "Documentation" },
+  { href: "/roadmap", text: "RoadMap" },
   { href: "/about", text: "About" },
   { href: "#", text: "API Reference" },
   { href: "#", text: "Community Forums" },

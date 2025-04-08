@@ -10,7 +10,7 @@ import PSI from "/assets/Partners/PSI_Logo.png";
 
 const PartnersSection = () => {
   return (
-    <div className="">
+    <div className="font-sans font-semibold text-gray-800">
       <h4 className="text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wide">
         Partners
       </h4>
@@ -20,7 +20,7 @@ const PartnersSection = () => {
           <a href="/partners"  rel="noopener noreferrer">
             <img
               src={Chembl}
-              alt="Parceiro Chembl"
+              alt="Partner Chembl"
               className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
             />
           </a>
@@ -29,7 +29,7 @@ const PartnersSection = () => {
           <a href="/partners"  rel="noopener noreferrer">
             <img
               src={NCI}
-              alt="Parceiro NCI"
+              alt="Partner NCI"
               className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
             />
           </a>
@@ -38,7 +38,7 @@ const PartnersSection = () => {
           <a href="/partners"  rel="noopener noreferrer">
             <img
               src={EPA}
-              alt="Parceiro EPA"
+              alt="Partner EPA"
               className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
             />
           </a>
@@ -47,7 +47,7 @@ const PartnersSection = () => {
           <a href="/partners"  rel="noopener noreferrer">
             <img
               src={HumanMicrobiome}
-              alt="Parceiro Human Microbiome"
+              alt="Partner Human Microbiome"
               className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
             />
           </a>
@@ -56,7 +56,7 @@ const PartnersSection = () => {
           <a href="/partners"  rel="noopener noreferrer">
             <img
               src={Nvidia}
-              alt="Parceiro Nvidia"
+              alt="Partner Nvidia"
               className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
             />
           </a>
@@ -65,7 +65,7 @@ const PartnersSection = () => {
           <a href="/partners"  rel="noopener noreferrer">
             <img
               src={PSI}
-              alt="Parceiro PSI"
+              alt="Partner PSI"
               className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
             />
           </a>
@@ -74,7 +74,7 @@ const PartnersSection = () => {
           <a href="/partners"  rel="noopener noreferrer">
             <img
               src={FDA}
-              alt="Parceiro FDA"
+              alt="Partner FDA"
               className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
             />
           </a>
@@ -83,7 +83,7 @@ const PartnersSection = () => {
           <a href="/partners"  rel="noopener noreferrer">
             <img
               src={NIH}
-              alt="Parceiro NIH"
+              alt="Partner NIH"
               className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
             />
           </a>
@@ -92,7 +92,7 @@ const PartnersSection = () => {
           <a href="/partners"  rel="noopener noreferrer">
             <img
               src={Pubchem}
-              alt="Parceiro Pubchem"
+              alt="Partner Pubchem"
               className="w-16 h-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-contain"
             />
           </a>

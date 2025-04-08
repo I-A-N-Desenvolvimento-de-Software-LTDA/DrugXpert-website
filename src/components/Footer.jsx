@@ -2,10 +2,10 @@ import { resourcesLinks, platformLinks, communityLinks, companyLinks } from "../
 
 const Footer = () => {
   return (
-    <footer className="mt-20 border-t py-10 border-neutral-700 mx-5">
+    <footer className="mt-20 border-t py-10 border-neutral-700 mx-5 font-sans font-semibold text-gray-800">
       <div className="max-w-7xl mx-auto px-4 flex flex-wrap justify-between gap-4">
         <div className="flex-1 min-w-[150px]">
-          <h3 className="text-md font-semibold mb-4">Resources</h3>
+          <h3 className="text-md font-bold mb-4">Resources</h3>
           <ul className="space-y-2">
             {resourcesLinks.map((link, index) => (
               <li key={index}>
@@ -17,7 +17,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex-1 min-w-[150px]">
-          <h3 className="text-md font-semibold mb-4">Platform</h3>
+          <h3 className="text-md font-bold mb-4">Platform</h3>
           <ul className="space-y-2">
             {platformLinks.map((link, index) => (
               <li key={index}>
@@ -29,7 +29,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex-1 min-w-[150px]">
-          <h3 className="text-md font-semibold mb-4">Community</h3>
+          <h3 className="text-md font-bold mb-4">Community</h3>
           <ul className="space-y-2">
             {communityLinks.map((link, index) => (
               <li key={index}>
@@ -41,7 +41,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex-1 min-w-[150px]">
-          <h3 className="text-md font-semibold mb-4">Company</h3>
+          <h3 className="text-md font-bold mb-4">Company</h3>
           <ul className="space-y-2">
             {companyLinks.map((link, index) => (
               <li key={index}>
@@ -57,7 +57,7 @@ const Footer = () => {
       {/* Seção de Contato em uma nova linha */}
       <div className="max-w-7xl mx-auto px-4 mt-6">
         <h3 className="text-md font-semibold mb-4">Contact Us</h3>
-        <div className="space-y-2"> {/* Adicionado o espaço vertical aqui */}
+        <div className="space-y-2">
           <p className="text-black-300">Support Hours: 09:30 AM - 06:00 PM</p>
           <p className="text-black-300">Phone: +55-12-98297-0005</p>
           <p className="text-black-300">

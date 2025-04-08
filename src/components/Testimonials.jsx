@@ -33,7 +33,8 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="mt-20 tracking-wide">
+    // Adicionei a classe 'font-sans' para alinhar a fonte com RoadmapAISection
+    <div className="mt-20 tracking-wide font-sans font-semibold text-gray-800">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-10 lg:my-20">
         What People are saying
       </h2>

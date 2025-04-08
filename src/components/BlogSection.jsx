@@ -3,7 +3,7 @@ import { articles } from '../constants';
 
 const BlogSection = () => {
   return (
-    <div className="font-sans p-5">
+    <div className="font-sans font-semibold p-5 text-gray-800">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-10 lg:my-20">
         Latest Articles
       </h2>
