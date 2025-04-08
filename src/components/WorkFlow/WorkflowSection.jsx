@@ -4,7 +4,7 @@ import { checklistItems } from "../../constants";
 
 const Workflow = () => {
   return (
-    <div className="mt-20">
+    <div className="mt-20 font-sans font-semibold text-gray-800">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
       Supercharge your{" "}
         <span className="bg-gradient-to-r from-[#5c8d2f] to-[#215153] text-transparent bg-clip-text">
@@ -13,7 +13,7 @@ const Workflow = () => {
       </h2>
       <div className="flex flex-wrap justify-center">
         <div className="p-2 w-full lg:w-1/2">
-          <img src={codeImg} alt="Coding" />
+          <img src={codeImg} alt="💻 Coding" />
         </div>
         <div className="pt-12 w-full lg:w-1/2">
           {checklistItems.map((item, index) => (
@@ -22,13 +22,13 @@ const Workflow = () => {
                 <CheckCircle2 />
               </div>
               <div>
-                <h5 className="mt-1 mb-2 text-xl">{item.title}</h5>
-                <p className="text-md text-neutral-500">{item.description}</p>
+                <h5 className="mt-1 mb-2 text-xl">{item.title} 🌟</h5>
+                <p className="text-md text-neutral-500">{item.description} ✨</p>
               </div>
             </div>
           ))}
         </div>
-        <div className="flex justify-center w-full mb-5 md:mb-0">
+        <div className="flex justify-center w-full mb-6 md:mb-0">
           <h1>
             <a href="/workflow" className="underline text-lg hover:text-[#5c8d2f] transition-colors">See more</a>
           </h1>

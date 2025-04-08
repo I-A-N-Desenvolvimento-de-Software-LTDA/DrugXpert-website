@@ -11,7 +11,8 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div className="relative overflow-hidden py-12 lg:py-20">
+    // Adicionei a classe 'font-sans' para alinhar a fonte com RoadmapAISection
+    <div className="relative overflow-hidden py-12 lg:py-20 font-sans font-semibold text-gray-800">
       {/* Background gradient overlay */}
       <div className="absolute inset-0  opacity-50 -z-10"></div>
       

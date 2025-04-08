@@ -4,11 +4,8 @@ const FeatureSection = () => {
   return (
     <div className="relative mt-20">
       <div className="text-center">
-        <span className="bg-neutral-900 text-[#91c982] rounded-full h-6 text-sm font-medium px-2 py-1 uppercase">
-          Features
-        </span>
         <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 tracking-wide">
-          Boost Productivity{" "}
+          Boost Productivity
           <span className="bg-gradient-to-r from-[#5c8d2f] to-[#215153] text-transparent bg-clip-text">
             Effortlessly
           </span>
@@ -22,9 +19,9 @@ const FeatureSection = () => {
                 {feature.icon}
               </div>
               <div>
-                <h5 className="mt-1 mb-6 text-xl">{feature.text}</h5>
+                <h5 className="mt-1 mb-6 text-xl">{feature.text} ✨</h5>
                 <p className="text-md p-2 mb-20 text-neutral-500">
-                  {feature.description}
+                  {feature.description} 💡
                 </p>
               </div>
             </div>
@@ -32,7 +29,9 @@ const FeatureSection = () => {
         ))}
         <div className="flex justify-center w-full mb-5 md:mb-0">
           <h1>
-            <a href="/features" className="underline text-lg hover:text-[#5c8d2f] transition-colors">See more</a>
+            <a href="/features" className="underline text-lg hover:text-[#5c8d2f] transition-colors">
+              See more
+            </a>
           </h1>
         </div>
       </div>

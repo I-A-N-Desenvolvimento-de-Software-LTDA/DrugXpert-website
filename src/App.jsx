@@ -11,6 +11,7 @@ import Subscribe from "./components/Pricing/Subscribe";
 import BlogSection from "./components/BlogSection";
 import Testimonials from "./components/Testimonials";
 import PartnersSection from './components/Partners/PartnersSection';
+import RoadmapAISection from './components/RoadmapAI/RoadmapAISection';
 
 import About from './pages/About';
 import Terms from "./pages/Terms"; 
@@ -18,6 +19,7 @@ import Privacy from './pages/Privacy';
 import Workflow from './pages/Workflow';
 import Refund from './pages/Refund';
 import Pricing from './pages/Pricing';
+import Roadmap from './pages/Roadmap';
 import Features from './pages/Features';
 import Partners from './pages/Partners';
 import Devices from './pages/Devices';
@@ -42,6 +44,7 @@ const App = () => {
               <WorkflowSection/>
               <PartnersSection/>
               <Subscribe/>
+              <RoadmapAISection/>
               <Helmet>
                 <title>DrugXpert | Home</title>
                 <meta name="description" content="Latest updates and articles from DrugXpert." />
@@ -66,6 +69,17 @@ const App = () => {
                 <meta name="description" content="Learn more about our mission and vision." />
               </Helmet>
               <Pricing />
+            </>
+          } />
+          <Route path="/roadmap" element={
+            <>
+              <Helmet>
+                <title>DrugXpert | RoadMap AI </title>
+                <meta name="description" content="Explore the innovative features of DrugXpert." />
+                <meta name="keywords" content="DrugXpert, RoadMap AI, innovative features, medication management" />
+                <meta name="author" content="DrugXpert Team" />
+              </Helmet>
+              <Roadmap/>
             </>
           } />
           <Route path="/workflow" element={
