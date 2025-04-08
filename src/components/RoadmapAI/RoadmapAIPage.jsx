@@ -9,9 +9,9 @@ const RoadmapAIPage = () => {
         description="Explore the roadmap to understand the needs of researchers, laboratories, and students for AI in substance discovery. Learn the key steps to ensure the final solution is useful and efficient." 
         keywords={["AI", "Substance Discovery", "Target Audience Research", "Roadmap", "DrugXpert"]} 
       />
-      <header className="py-6 bg-gradient-to-r from-gray-800 to-gray-900 text-white text-center shadow-lg">
-        <h1 className="text-4xl font-extrabold tracking-tight sm:text-3xl">🎯 Roadmap: Target Audience Research for AI in Substance Discovery</h1>
-        <p className="text-lg mt-2 max-w-3xl mx-auto sm:text-base">This roadmap will help understand the needs of researchers, laboratories, and students who will use the AI, ensuring the final solution is useful and efficient.</p>
+      <header className="py-6 bg-gradient-to-r from-gray-800 to-gray-900 text-white text-center shadow-lg sm:py-4 sm:px-2">
+        <h1 className="text-4xl font-extrabold tracking-tight sm:text-2xl sm:leading-tight">🎯 Roadmap: Target Audience Research for AI in Substance Discovery</h1>
+        <p className="text-lg mt-2 max-w-3xl mx-auto sm:text-sm sm:mt-1">This roadmap will help understand the needs of researchers, laboratories, and students who will use the AI, ensuring the final solution is useful and efficient.</p>
       </header>
       <main className="py-10 px-6 lg:px-20 sm:px-4">
         <section className="mb-12">
@@ -71,34 +71,34 @@ const RoadmapAIPage = () => {
 
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-gray-800 sm:text-xl">📊 3. Choose Data Collection Methodologies</h2>
-          <table className="table-auto border-collapse border border-gray-300 w-full mt-6 text-gray-700 sm:text-sm">
+          <table className="table-auto border-collapse w-full mt-6 text-gray-700 sm:text-xs sm: sm:block">
             <thead>
               <tr className="bg-gray-100">
-                <th className="border border-gray-300 px-4 py-2">🛠️ Method</th>
-                <th className="border border-gray-300 px-4 py-2">🎯 Advantage</th>
-                <th className="border border-gray-300 px-4 py-2">🚨 Disadvantage</th>
+                <th className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">🛠️ Method</th>
+                <th className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">🎯 Advantage</th>
+                <th className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">🚨 Disadvantage</th>
               </tr>
             </thead>
             <tbody>
               <tr className="hover:bg-gray-50 transition">
-                <td className="border border-gray-300 px-4 py-2">Individual interviews</td>
-                <td className="border border-gray-300 px-4 py-2">Detailed and in-depth responses</td>
-                <td className="border border-gray-300 px-4 py-2">Time-consuming</td>
+                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Individual interviews</td>
+                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Detailed and in-depth responses</td>
+                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Time-consuming</td>
               </tr>
               <tr className="hover:bg-gray-50 transition">
-                <td className="border border-gray-300 px-4 py-2">Online questionnaires</td>
-                <td className="border border-gray-300 px-4 py-2">Quick collection of many responses</td>
-                <td className="border border-gray-300 px-4 py-2">May have a low response rate</td>
+                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Online questionnaires</td>
+                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Quick collection of many responses</td>
+                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">May have a low response rate</td>
               </tr>
               <tr className="hover:bg-gray-50 transition">
-                <td className="border border-gray-300 px-4 py-2">Focus groups</td>
-                <td className="border border-gray-300 px-4 py-2">Open discussion generates new insights</td>
-                <td className="border border-gray-300 px-4 py-2">Difficult to organize</td>
+                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Focus groups</td>
+                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Open discussion generates new insights</td>
+                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Difficult to organize</td>
               </tr>
               <tr className="hover:bg-gray-50 transition">
-                <td className="border border-gray-300 px-4 py-2">Secondary data analysis</td>
-                <td className="border border-gray-300 px-4 py-2">Use of already conducted research</td>
-                <td className="border border-gray-300 px-4 py-2">Data may be outdated</td>
+                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Secondary data analysis</td>
+                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Use of already conducted research</td>
+                <td className="border border-gray-300 px-4 py-2 sm:px-2 sm:py-1">Data may be outdated</td>
               </tr>
             </tbody>
           </table>
