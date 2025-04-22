@@ -28,11 +28,11 @@ const Navbar = () => {
         ))}
       </ul>
       <div className="hidden lg:flex justify-center space-x-12 items-center text-[16px]">
-        <a href="https://app.drugxpert.net/auth-page/signin" className="py-2 px-3 border rounded-md">
+        <a href="https://app.drugxpert.net" className="py-2 px-3 border rounded-md">
           Sign In
         </a>
         <a
-          href="https://app.drugxpert.net/auth-page/signup"
+          href="https://app.drugxpert.net"
           className="text-white bg-gradient-to-r from-[#5c8d2f] to-[#215153] py-2 px-3 rounded-md"
         >
           Create an account
