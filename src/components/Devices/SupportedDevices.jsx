@@ -9,7 +9,7 @@ const SupportedDevices = () => {
         description="Learn about all devices compatible with DrugXpert including iOS, Android, Windows, Mac, and Linux systems. Check our requirements for optimal performance."
         keywords={['supported devices', 'compatibility', 'iOS devices', 'Android devices', 'desktop compatibility', 'system requirements', 'DrugXpert app']}
       />
-      <header className="py-6 bg-gradient-to-r from-gray-800 to-gray-900 text-white text-center shadow-lg">
+      <header className="py-6 to-gray-700 text-gray-800 text-center ">
         <h1 className="text-4xl font-extrabold tracking-tight">📱 Supported Devices</h1>
         <p className="text-lg mt-2 max-w-3xl mx-auto">Learn about all devices compatible with DrugXpert including iOS, Android, Windows, Mac, and Linux systems. Check our requirements for optimal performance.</p>
       </header>

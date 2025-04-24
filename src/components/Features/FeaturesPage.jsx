@@ -19,7 +19,7 @@ const FeaturesPage = () => {
       />
 
       <div className="text-center mb-16">
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-4 text-gradient ">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-4 text-gradient">
           🚀 Features That Shine
         </h1>
         <p className="text-lg text-neutral-700 max-w-3xl mx-auto leading-relaxed">
@@ -40,7 +40,9 @@ const FeaturesPage = () => {
             <div className="lg:w-1/2">
               <div className="mb-4">
                 <div className="flex items-center gap-2">
-                  <div className="text-4xl text-green-500">{feature.icon || '✨'}</div>
+                  <div className="text-4xl text-green-500">
+                    {feature.icon || '✨'}
+                  </div>
                   <p className="text-4xl font-semibold text-gray-800">
                     {feature.text} 
                   </p>

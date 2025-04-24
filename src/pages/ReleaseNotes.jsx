@@ -3,7 +3,9 @@ import ReleaseNotesPage from '../components/ReleaseNotes/ReleaseNotesPage'
 
 const ReleaseNotes = () => {
   return (
-    <ReleaseNotesPage/>
+    <div className="release-notes-page min-h-screen flex flex-col items-center justify-center">
+      <ReleaseNotesPage />
+    </div>
   )
 }
 

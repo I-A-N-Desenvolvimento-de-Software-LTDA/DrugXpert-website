@@ -3,7 +3,7 @@ import FullSubscribe from '../components/Pricing/FullSubscribe'
 
 const Pricing = () => {
   return (
-    <div>
+    <div className="pricing-page min-h-screen flex flex-col items-center justify-center">
         <FullSubscribe/>
     </div>
    

@@ -45,7 +45,7 @@ const Testimonials = () => {
             type="button"
             className={`px-4 py-2 text-sm font-medium border border-neutral-800 rounded-l-lg ${
               activeTab === "user" 
-                ? "bg-gradient-to-r from-[#5c8d2f] to-[#215153] text-white" 
+                ? "bg-gradient-to-br from-green-600 to-green-900 text-white" 
                 : "bg-white text-gray-900 hover:bg-gray-100"
             }`}
             onClick={() => setActiveTab("user")}
@@ -56,7 +56,7 @@ const Testimonials = () => {
             type="button"
             className={`px-4 py-2 text-sm font-medium border border-neutral-800 rounded-r-lg ${
               activeTab === "partner" 
-                ? "bg-gradient-to-r from-[#5c8d2f] to-[#215153] text-white" 
+                ? "bg-gradient-to-br from-green-600 to-green-900 text-white" 
                 : "bg-white text-gray-900 hover:bg-gray-100"
             }`}
             onClick={() => setActiveTab("partner")}
@@ -76,7 +76,7 @@ const Testimonials = () => {
             : "Interested in partnering with us? Join our growing network of partners! 🤝"}
         </p>
         <Link to={getLinkUrl()}>
-          <button className="mt-4 px-6 py-3 bg-gradient-to-r from-[#5c8d2f] to-[#215153] text-white rounded-md hover:opacity-90 transition-opacity">
+          <button className="mt-4 px-6 py-3 bg-gradient-to-br from-green-600 to-green-900 text-white rounded-md hover:opacity-90 transition-opacity">
             {getButtonText()}
           </button>
         </Link>

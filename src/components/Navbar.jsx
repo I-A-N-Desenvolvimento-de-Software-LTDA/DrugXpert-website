@@ -33,7 +33,7 @@ const Navbar = () => {
         </a>
         <a
           href="https://app.drugxpert.net"
-          className="text-white bg-gradient-to-r from-[#5c8d2f] to-[#215153] py-2 px-3 rounded-md"
+          className="text-white bg-gradient-to-br from-green-600 to-green-900 py-2 px-3 rounded-md"
         >
           Create an account
         </a>
@@ -59,7 +59,7 @@ const Navbar = () => {
           </a>
           <a
             href="https://app.drugxpert.net/auth-page/signup"
-            className="text-white py-2 px-3 rounded-md bg-gradient-to-r from-[#5c8d2f] to-[#215153]"
+            className="text-white py-2 px-3 rounded-md bg-gradient-to-br from-green-600 to-green-900"
           >
             Create an account
           </a>

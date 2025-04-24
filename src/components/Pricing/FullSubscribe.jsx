@@ -55,7 +55,7 @@ const FullSubscribe = () => {
                   <p className="text-4xl">
                     {option.title}
                     {option.title === "Pro" && (
-                      <span className="bg-gradient-to-r from-[#5c8d2f] to-[#91c982] text-transparent bg-clip-text text-xl mb-4 ml-2">
+                      <span className="bg-gradient-to-br from-green-600 to-green-900 text-transparent bg-clip-text text-xl mb-4 ml-2">
                         (Most Popular)
                       </span>
                     )}
@@ -81,7 +81,7 @@ const FullSubscribe = () => {
                 <ul>
                   {option.features.map((feature, idx) => (
                     <li key={idx} className="mb-3 flex items-start">
-                      <BadgeCheck className="min-w-[20px] mt-1" color="green" />
+                      <BadgeCheck className="min-w-[20px] mt-1 text-green-600" />
                       <span className="ml-2">{feature}</span>
                     </li>
                   ))}
@@ -96,7 +96,7 @@ const FullSubscribe = () => {
               
               <a
                 href="https://app.drugxpert.net/auth-page/signup"
-                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-8 tracking-tight text-xl hover:bg-gradient-to-r from-[#5c8d2f] to-[#215153] border border-[#5c8d2f] hover:text-white rounded-lg transition duration-50"
+                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-8 tracking-tight text-xl hover:bg-gradient-to-br from-green-600 to-green-900 border border-green-600 hover:text-white rounded-lg transition duration-50"
               >
                 Subscribe
               </a>
@@ -108,13 +108,13 @@ const FullSubscribe = () => {
       {/* Payment Options */}
       <div className="mt-24 border border-neutral-700 rounded-xl p-8">
         <div className="flex items-center gap-3 mb-6">
-          <CreditCard size={28} className="text-[#5c8d2f]" />
+          <CreditCard size={28} className="text-green-600" />
           <h2 className="text-2xl sm:text-3xl font-bold">💳 Secure Payment Options</h2>
         </div>
         <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {paymentMethods.map((method, index) => (
             <li key={index} className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full bg-[#5c8d2f]"></div>
+              <div className="w-2 h-2 rounded-full bg-green-600"></div>
               <span>{method}</span>
             </li>
           ))}
@@ -124,13 +124,13 @@ const FullSubscribe = () => {
       {/* Security & Compliance */}
       <div className="mt-12 border border-neutral-700 rounded-xl p-8">
         <div className="flex items-center gap-3 mb-6">
-          <ShieldCheck size={28} className="text-[#5c8d2f]" />
+          <ShieldCheck size={28} className="text-green-600" />
           <h2 className="text-2xl sm:text-3xl font-bold">🔒 Security & Compliance</h2>
         </div>
         <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {securityFeatures.map((feature, index) => (
             <li key={index} className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full bg-[#5c8d2f]"></div>
+              <div className="w-2 h-2 rounded-full bg-green-600"></div>
               <span>{feature}</span>
             </li>
           ))}
@@ -200,7 +200,7 @@ const FullSubscribe = () => {
           <p className="text-lg font-semibold mb-6">🔗 Ready to enhance your research capabilities? Choose your plan now!</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="https://app.drugxpert.net/auth-page/signup" 
-              className="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-[#5c8d2f] to-[#215153] rounded-lg hover:opacity-90 transition-opacity text-white">
+              className="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-br from-green-600 to-green-900 rounded-lg hover:opacity-90 transition-opacity text-white">
               Get Started <ExternalLink size={16} className="ml-2" />
             </a>
             <a href="mailto:sales@drugxpert.net" 

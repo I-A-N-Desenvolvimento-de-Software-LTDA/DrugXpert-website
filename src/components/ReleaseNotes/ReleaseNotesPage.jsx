@@ -60,7 +60,7 @@ const ReleaseNotesPage = () => {
               <div key={item.quarter} className="bg-white p-4 rounded-lg shadow-md z-10">
                 <div className="text-center">
                   <span className="text-2xl mb-2">{item.icon}</span>
-                  <h3 className="text-[#5c8d2f] font-semibold mb-1">{item.quarter}</h3>
+                  <h3 className="text-gradient-to-r from-green-400 to-green-600 font-semibold mb-1">{item.quarter}</h3>
                   <p className="font-medium text-gray-800 mb-2">{item.phase}</p>
                   <p className="text-sm font-medium mb-2">{item.title}</p>
                   <ul className="text-sm text-gray-600 space-y-1">
@@ -75,7 +75,7 @@ const ReleaseNotesPage = () => {
 
           {/* Planning Section */}
           <div className="mt-6 sm:mt-8 lg:mt-12 p-3 sm:p-4 lg:p-6 bg-gray-50 rounded-lg">
-            <h3 className="text-base sm:text-lg font-semibold text-[#5c8d2f] mb-3 sm:mb-4">In Planning</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-gradient-to-r from-green-400 to-green-600 mb-3 sm:mb-4">In Planning</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
               <div className="bg-white p-3 rounded shadow-sm">
                 <p className="text-sm">Pharmaceutical Marketplace</p>
@@ -97,7 +97,7 @@ const ReleaseNotesPage = () => {
           <div className="space-y-4 sm:space-y-6 lg:space-y-8">
             {detailedRoadmapItems.map((phase) => (
               <div key={phase.phase} className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-semibold text-[#5c8d2f] flex items-center gap-2 mb-4">
+                <h3 className="text-xl font-semibold text-gradient-to-r from-green-400 to-green-600 flex items-center gap-2 mb-4">
                   <span>{phase.icon}</span> {phase.phase}: {phase.title} ({phase.duration})
                 </h3>
                 <ul className="space-y-4">

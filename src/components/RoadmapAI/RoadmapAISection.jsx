@@ -32,7 +32,7 @@ const RoadmapAISection = () => {
         </div>
         <div className="flex justify-center mt-8">
         <h1>
-          <a href="/roadmap" className="underline text-lg hover:text-[#5c8d2f] transition-colors">See more</a>
+          <a href="/roadmap" className="underline text-lg hover:text-gradient-to-r from-green-400 to-green-600 transition-colors">See more</a>
         </h1>
       </div>
       </div>

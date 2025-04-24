@@ -25,7 +25,7 @@ const HeroSection = () => {
           }`}
         >
           DrugXpert drug research platform
-          <span className="block mt-2 bg-gradient-to-r from-[#5c8d2f] to-[#215153] text-transparent bg-clip-text">
+          <span className="block mt-2 bg-gradient-to-br from-green-600 to-green-900 text-transparent bg-clip-text">
             for everyone
           </span>
         </h1>
@@ -47,7 +47,7 @@ const HeroSection = () => {
         >
           <a
             href="https://app.drugxpert.net/"
-            className="text-white bg-gradient-to-r from-[#5c8d2f] to-[#215153] py-4 px-8 rounded-lg font-medium shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+            className="text-white bg-gradient-to-br from-green-600 to-green-900 py-4 px-8 rounded-lg font-medium shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
           >
             Start for free
           </a>

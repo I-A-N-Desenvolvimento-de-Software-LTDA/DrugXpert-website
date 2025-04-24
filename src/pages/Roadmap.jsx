@@ -3,7 +3,9 @@ import RoadmapAIPage from '../components/RoadmapAI/RoadmapAIPage'
 
 const Feature = () => {
   return (
-    <RoadmapAIPage/>
+    <div className="features-page min-h-screen flex flex-col items-center justify-center">
+      <RoadmapAIPage />
+    </div>
   )
 }
 

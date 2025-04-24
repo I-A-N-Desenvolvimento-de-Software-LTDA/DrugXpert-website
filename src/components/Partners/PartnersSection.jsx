@@ -11,7 +11,7 @@ import PSI from "/assets/Partners/PSI_Logo.png";
 const PartnersSection = () => {
   return (
     <div className="font-sans font-semibold text-gray-800">
-      <h4 className="text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wide">
+      <h4 className="text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wide text-gradient">
         Partners
       </h4>
 

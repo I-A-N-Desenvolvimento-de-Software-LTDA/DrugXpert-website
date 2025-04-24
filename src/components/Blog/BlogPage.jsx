@@ -27,7 +27,7 @@ const BlogPage = () => {
           </p>
           <a 
             href={featuredArticle.link} 
-            className="inline-block px-4 py-2 bg-gradient-to-r from-[#5c8d2f] to-[#215153] text-white rounded focus:outline-none focus:ring focus:ring-blue-300"
+            className="inline-block px-4 py-2 bg-gradient-to-br from-green-600 to-green-900 text-white rounded focus:outline-none focus:ring focus:ring-blue-300"
           >
             Saiba mais
           </a>
@@ -53,7 +53,7 @@ const BlogPage = () => {
       <div className="flex justify-center mt-8">
         <a 
           href={featuredArticle.link} 
-          className="inline-block px-4 py-2 bg-gradient-to-r from-[#5c8d2f] to-[#215153] text-white rounded focus:outline-none focus:ring focus:ring-blue-300"
+          className="inline-block px-4 py-2 bg-gradient-to-br from-green-600 to-green-900 text-white rounded focus:outline-none focus:ring focus:ring-blue-300"
         >
           Load more
         </a>

@@ -14,7 +14,7 @@ const Subscribe = () => {
               <p className="text-4xl mb-8">
                 {option.title}
                 {option.title === "Pro" && (
-                  <span className="bg-gradient-to-r from-[#5c8d2f] to-[#91c982] text-transparent bg-clip-text text-xl mb-4 ml-2">
+                  <span className="bg-gradient-to-br from-green-600 to-green-900 text-transparent bg-clip-text text-xl mb-4 ml-2">
                     (Most Popular)
                   </span>
                 )}
@@ -26,7 +26,7 @@ const Subscribe = () => {
               <ul>
                 {option.features.map((feature, index) => (
                   <li key={index} className="mt-8 flex items-center">
-                    <BadgeCheck color="green" />
+                    <BadgeCheck className="text-green-600" />
                     <span className="ml-2">{feature}</span>
                   </li>
                 ))}
@@ -38,7 +38,7 @@ const Subscribe = () => {
               </div>
               <a
                 href="https://stripe.com/br?utm_adposition="
-                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-10 tracking-tight text-xl hover:bg-gradient-to-r from-[#5c8d2f] to-[#215153] border border-[#5c8d2f] hover:text-white rounded-lg transition duration-50"
+                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-10 tracking-tight text-xl hover:bg-gradient-to-br from-green-600 to-green-900 border border-green-600 hover:text-white rounded-lg transition duration-50"
               >
                 Subscribe
               </a>

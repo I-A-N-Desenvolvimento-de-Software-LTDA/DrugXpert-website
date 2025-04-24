@@ -17,8 +17,8 @@ const RoadmapAIPage = () => {
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-gray-800 border-b-2 border-gray-300 pb-2 sm:text-2xl">🔍 Key Steps</h2>
           <ul className="list-disc list-inside mt-6 space-y-2 text-gray-700">
-            <li className="hover:text-green-600 transition">Define Research Objectives</li>
-            <li className="hover:text-green-600 transition">Identify the Target Audience</li>
+            <li className="hover:text-gradient-to-r from-green-400 to-green-600 transition">Define Research Objectives</li>
+            <li className="hover:text-gradient-to-r from-green-400 to-green-600 transition">Identify the Target Audience</li>
             <li className="hover:text-green-600 transition">Choose Data Collection Methodologies</li>
             <li className="hover:text-green-600 transition">Develop Research Instruments</li>
             <li className="hover:text-green-600 transition">Execute Data Collection</li>

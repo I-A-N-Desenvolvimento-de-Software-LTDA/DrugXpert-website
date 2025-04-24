@@ -26,7 +26,7 @@ const BlogSection = () => {
       </div>
       <div className="flex justify-center mt-8">
         <h1>
-          <a href="https://blog.drugxpert.net/" className="underline text-lg hover:text-[#5c8d2f] transition-colors">See more</a>
+          <a href="https://blog.drugxpert.net/" className="underline text-lg hover:text-gradient-to-r hover:from-[#5c8d2f] hover:to-[#a4d4a5] transition-colors">See more</a>
         </h1>
       </div>
     </div>

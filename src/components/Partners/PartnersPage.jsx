@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { PartnersIndex } from "../../constants";
 import { motion } from "framer-motion";
@@ -28,7 +27,7 @@ const PartnersPage = () => {
 
       <div className="relative px-4 sm:px-6 lg:px-8">
         {/* Hero Section */}
-        <div className="relative py-20 mb-16 bg-gradient-to-r from-[#215153] to-[#5c8d2f] overflow-hidden rounded-2xl">
+        <div className="relative py-20 mb-16 bg-gradient-to-br from-green-600 to-green-900 overflow-hidden rounded-2xl">
           <div className="absolute inset-0 opacity-20">
             <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
               {[...Array(20)].map((_, i) => (
@@ -81,7 +80,7 @@ const PartnersPage = () => {
               onClick={() => setSelectedCategory(category)}
               className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                 selectedCategory === category
-                  ? "bg-[#215153] text-white shadow-lg"
+                  ? "bg-gradient-to-br from-green-600 to-green-900 text-white shadow-lg"
                   : "bg-gray-100 text-gray-700 hover:bg-gray-200"
               }`}
             >
@@ -114,7 +113,7 @@ const PartnersPage = () => {
                     className="object-contain w-full h-auto transition-transform duration-500 group-hover:scale-110 max-h-56"
                   />
                   <div className="absolute top-0 right-0">
-                    <span className="inline-block px-3 py-1 text-xs font-medium bg-[#91c982]/20 text-[#5c8d2f] rounded-bl-lg">
+                    <span className="inline-block px-3 py-1 text-xs font-medium bg-green-900/20 text-green-600 rounded-bl-lg">
                       {partner.category}
                     </span>
                   </div>
@@ -157,7 +156,7 @@ const PartnersPage = () => {
           </p>
           <a 
             href="https://app.drugxpert.net/auth-page/partner" 
-            className="inline-block px-6 py-3 font-medium bg-gradient-to-r from-[#215153] to-[#5c8d2f] text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+            className="inline-block px-6 py-3 font-medium bg-gradient-to-br from-green-600 to-green-900 text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
           >
             Apply to Partner With Us
           </a>

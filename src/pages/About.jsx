@@ -3,7 +3,7 @@ import SEO from "../components/SEO/SEO";
 
 const About = () => {
   return (
-    <div className="about-page min-h-screen">
+    <div className="about-page min-h-screen ">
       <SEO 
         title="About DrugXpert | Learn about the history and mission of DrugXpert" 
         description="Learn about the history and mission of DrugXpert, a revolutionary drug research platform." 

@@ -3,7 +3,9 @@ import SupportedDevices from '../components/Devices/SupportedDevices'
 
 const Devices = () => {
   return (
-        <SupportedDevices/>
+    <div className="devices-page min-h-screen flex flex-col items-center justify-center">
+      <SupportedDevices />
+    </div>
   )
 }
 
