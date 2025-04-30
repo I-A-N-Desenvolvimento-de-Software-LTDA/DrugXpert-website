@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className="flex justify-between items-center">
       <div className="flex items-center flex-shrink-0">
         <a href="/" className="flex items-center">
-          <img className="h-20 w-20 mr-5" src={logo} alt="Logo" />
+          <img className="h-20 w-21 mr-5" src={logo} alt="Logo" />
           <span className="text-xl tracking-tight">DrugXpert</span>
         </a>
       </div>
